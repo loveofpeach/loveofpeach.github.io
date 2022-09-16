@@ -81,7 +81,14 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%AF%84%E8%AE%BA/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E6%97%B6%E4%BA%8B/</loc>
+    <lastmod>2022-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/%E8%89%B2%E8%89%B2/</loc>
     <lastmod>2022-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -101,24 +108,10 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%89%B2%E8%89%B2/</loc>
-    <lastmod>2022-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/%E6%9D%82/</loc>
-    <lastmod>2022-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/categories/%E8%AF%84%E8%AE%BA/</loc>
+    <loc>https://loveofpeach.github.io/categories/%E6%97%B6%E4%BA%8B/</loc>
     <lastmod>2022-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -126,6 +119,13 @@
   
   <url>
     <loc>https://loveofpeach.github.io/categories/%E5%86%99%E4%BD%9C/</loc>
+    <lastmod>2022-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/categories/%E6%9D%82/</loc>
     <lastmod>2022-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

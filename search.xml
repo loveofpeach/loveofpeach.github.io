@@ -45,9 +45,9 @@
       
         <tags>
             
-            <tag> 想法 </tag>
-            
             <tag> 时事 </tag>
+            
+            <tag> 想法 </tag>
             
         </tags>
       
@@ -72,9 +72,9 @@
       
         <tags>
             
-            <tag> 时事 </tag>
-            
             <tag> 转载 </tag>
+            
+            <tag> 时事 </tag>
             
         </tags>
       
@@ -174,9 +174,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -196,9 +196,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

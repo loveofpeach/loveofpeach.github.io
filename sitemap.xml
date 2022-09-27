@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://loveofpeach.github.io/posts/b15be653.html</loc>
+    
+    <lastmod>2022-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://loveofpeach.github.io/posts/5f46c25d.html</loc>
     
     <lastmod>2022-09-27</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://loveofpeach.github.io/posts/9c06e4a8.html</loc>
     
     <lastmod>2022-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/posts/b15be653.html</loc>
-    
-    <lastmod>2022-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -166,14 +166,14 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/%E6%97%B6%E4%BA%8B/</loc>
+    <loc>https://loveofpeach.github.io/categories/%E6%9D%82/</loc>
     <lastmod>2022-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/%E6%9D%82/</loc>
+    <loc>https://loveofpeach.github.io/categories/%E6%97%B6%E4%BA%8B/</loc>
     <lastmod>2022-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

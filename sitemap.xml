@@ -101,21 +101,7 @@
 
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/leetcode/</loc>
-    <lastmod>2022-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/tags/dfs/</loc>
-    <lastmod>2022-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/tags/%E6%83%B3%E6%B3%95/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2022-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -129,7 +115,21 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%BD%AC%E8%BD%BD/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E6%83%B3%E6%B3%95/</loc>
+    <lastmod>2022-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/leetcode/</loc>
+    <lastmod>2022-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/dfs/</loc>
     <lastmod>2022-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -166,13 +166,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/%E5%81%9A%E9%A2%98/</loc>
-    <lastmod>2022-10-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/categories/%E6%97%B6%E4%BA%8B/</loc>
     <lastmod>2022-10-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -181,6 +174,13 @@
   
   <url>
     <loc>https://loveofpeach.github.io/categories/%E6%9D%82/</loc>
+    <lastmod>2022-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/categories/%E5%81%9A%E9%A2%98/</loc>
     <lastmod>2022-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

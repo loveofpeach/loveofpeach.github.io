@@ -6,7 +6,7 @@
   <link href="https://loveofpeach.github.io/atom.xml" rel="self"/>
   
   <link href="https://loveofpeach.github.io/"/>
-  <updated>2022-09-27T09:54:22.353Z</updated>
+  <updated>2022-10-14T02:06:15.670Z</updated>
   <id>https://loveofpeach.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1013sitong</title>
+    <link href="https://loveofpeach.github.io/posts/c8cced9.html"/>
+    <id>https://loveofpeach.github.io/posts/c8cced9.html</id>
+    <published>2022-10-13T11:55:10.000Z</published>
+    <updated>2022-10-14T02:06:15.670Z</updated>
+    
+    <content type="html"><![CDATA[<p>好，支持四通bridgeman。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;好，支持四通bridgeman。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="时事" scheme="https://loveofpeach.github.io/categories/%E6%97%B6%E4%BA%8B/"/>
+    
+    
+    <category term="时事" scheme="https://loveofpeach.github.io/tags/%E6%97%B6%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>leetcode407</title>
@@ -118,9 +143,9 @@
     <category term="时事" scheme="https://loveofpeach.github.io/categories/%E6%97%B6%E4%BA%8B/"/>
     
     
-    <category term="转载" scheme="https://loveofpeach.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
     <category term="时事" scheme="https://loveofpeach.github.io/tags/%E6%97%B6%E4%BA%8B/"/>
+    
+    <category term="转载" scheme="https://loveofpeach.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
     
   </entry>
   

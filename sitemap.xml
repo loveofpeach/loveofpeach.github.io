@@ -266,13 +266,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
-    <lastmod>2023-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -287,7 +280,7 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/C/</loc>
+    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -301,7 +294,7 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <loc>https://loveofpeach.github.io/tags/C/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -322,6 +315,20 @@
   </url>
   
   <url>
+    <loc>https://loveofpeach.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2023-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/%E4%BB%8A%E6%95%8F/</loc>
+    <lastmod>2023-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://loveofpeach.github.io/tags/leetcode/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -330,13 +337,6 @@
   
   <url>
     <loc>https://loveofpeach.github.io/tags/dfs/</loc>
-    <lastmod>2023-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/tags/%E4%BB%8A%E6%95%8F/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -366,14 +366,14 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/%E5%81%9A%E9%A2%98/</loc>
+    <loc>https://loveofpeach.github.io/categories/ACG/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/ACG/</loc>
+    <loc>https://loveofpeach.github.io/categories/%E5%81%9A%E9%A2%98/</loc>
     <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

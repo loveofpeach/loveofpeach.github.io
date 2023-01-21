@@ -252,14 +252,21 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
+    <loc>https://loveofpeach.github.io/tags/acg/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/acg/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -280,13 +287,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/C/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -301,13 +301,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E6%B1%A4%E6%B5%85%E6%94%BF%E6%98%8E/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -316,6 +309,13 @@
   
   <url>
     <loc>https://loveofpeach.github.io/tags/%E7%94%B5%E5%BD%B1/</loc>
+    <lastmod>2023-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

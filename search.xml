@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>BOI2009 Radio Transmission</title>
+      <link href="/posts/ac682fe9.html"/>
+      <url>/posts/ac682fe9.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>给你一个字符串 $s_1$，它是由某个字符串 $s_2$ 不断自我连接形成的。但是字符串 $s_2$ 是不确定的，现在只想知道它的最短长度是多少。</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行一个整数 $L$，表示给出字符串的长度。 </p><p>第二行给出字符串 $s_1$ 的一个子串，全由小写字母组成。</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>仅一行，表示 $s_2$ 的最短长度。</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">cabcabca</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><h4 id="样例输入输出-1-解释"><a href="#样例输入输出-1-解释" class="headerlink" title="样例输入输出 1 解释"></a>样例输入输出 1 解释</h4><p>对于样例，我们可以利用 $\texttt{abc}$ 不断自我连接得到 $\texttt{abcabcabc}$，读入的 $\texttt{cabcabca}$，是它的子串。</p><h4 id="规模与约定"><a href="#规模与约定" class="headerlink" title="规模与约定"></a>规模与约定</h4><p>对于全部的测试点，保证 $1 &lt; L \le 10^6$。</p><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>以后再说</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 做题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo踩坑记录</title>
       <link href="/posts/2b780dd.html"/>
       <url>/posts/2b780dd.html</url>
@@ -38,7 +63,7 @@
       
       <categories>
           
-          <category> 做题 </category>
+          <category> 笔记 </category>
           
       </categories>
       
@@ -63,7 +88,7 @@
       
       <categories>
           
-          <category> 做题 </category>
+          <category> 笔记 </category>
           
       </categories>
       
@@ -190,7 +215,7 @@
       
       <categories>
           
-          <category> 做题 </category>
+          <category> 笔记 </category>
           
       </categories>
       
@@ -240,7 +265,7 @@
       
       <categories>
           
-          <category> 做题 </category>
+          <category> 笔记 </category>
           
       </categories>
       
@@ -265,7 +290,7 @@
       
       <categories>
           
-          <category> 做题 </category>
+          <category> 笔记 </category>
           
       </categories>
       
@@ -390,7 +415,7 @@
       
       <categories>
           
-          <category> 做题 </category>
+          <category> 笔记 </category>
           
       </categories>
       
@@ -467,7 +492,7 @@
       
       <categories>
           
-          <category> 杂 </category>
+          <category> 观点 </category>
           
       </categories>
       
@@ -610,9 +635,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -621,9 +646,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

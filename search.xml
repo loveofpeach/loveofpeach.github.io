@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>产假问题想到的</title>
+      <link href="/posts/2cbce842.html"/>
+      <url>/posts/2cbce842.html</url>
+      
+        <content type="html"><![CDATA[<p><strong>文章尚未完成，只是草稿</strong></p><p>在我所学的无法在现代社会中掌握专业技能的专业的某门专业课上，我曾想过一种设计，一种尝试解决产假问题的机制。虽然它在后来被我否定，。。。出于自身的原因见识狭隘，想要思考社会问题恐怕必须增长自己的见识，取看看其他先进国家的成功经验，不能沉溺于无用的空想，而我囿于种种原因，…。但我还是想留下思考它的过程。它虽然是不成熟、欠考虑，甚至是幼稚的，但它反映了我思想的一些变化。。。</p><p>毕竟，It’s a tree hole, I’m free.</p><p>题目：现代企业的产假管理（暂定）</p><p>简述：在电力市场概论这门课中我了解到『pool』的概念，我想将这个概念运用到产假管理的方面。人们在休产假前，可通过为同单位的在休人员分担工作，积累额外工作天数，这个天数在需要休产假时可以取出。它的目标是促进两性就业机会的平等并为年轻家庭的生育提供保障。</p><p>以下是暂时想到的：</p><ol><li>个人在pool中积累的天数由社会公共机构把持，不随工作变更清空。</li><li>取出天数休产假时，由男女双方的数据计算总天数。为促进两性平等的就业机会、保障家庭的生育过程，男方也休产假（尽管天数未必相等）。</li><li>为防止就业时的歧视，该天数在正式录用前对招聘单位不可见。</li><li>若将在休人员的工作划分为不同模块由不同人员分担，需要设计额外工作天数的计算方法。</li><li>可以提前预支天数，但在产假后需在一定时期内偿完。该措施为不同选择的人群提供更加人性化的休假方式。</li></ol><p>论文会结合工商管理所学的知识，例如人力资源等等，作具体的、既有定性又有定量的分析。</p><hr><p>而这反映出一种透着穷酸气的实用主义，打个未必恰当的比方，就好比只会用功不知休息的学生一样。这种可怕的实用主义正充斥中国社会的各个角落。</p><p>承认人类的不理性才是最大的理性。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 观点 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 想法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>BOI2009 Radio Transmission</title>
       <link href="/posts/ac682fe9.html"/>
       <url>/posts/ac682fe9.html</url>
       
-        <content type="html"><![CDATA[<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>给你一个字符串 $s_1$，它是由某个字符串 $s_2$ 不断自我连接形成的。但是字符串 $s_2$ 是不确定的，现在只想知道它的最短长度是多少。</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行一个整数 $L$，表示给出字符串的长度。 </p><p>第二行给出字符串 $s_1$ 的一个子串，全由小写字母组成。</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>仅一行，表示 $s_2$ 的最短长度。</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">cabcabca</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><h4 id="样例输入输出-1-解释"><a href="#样例输入输出-1-解释" class="headerlink" title="样例输入输出 1 解释"></a>样例输入输出 1 解释</h4><p>对于样例，我们可以利用 $\texttt{abc}$ 不断自我连接得到 $\texttt{abcabcabc}$，读入的 $\texttt{cabcabca}$，是它的子串。</p><h4 id="规模与约定"><a href="#规模与约定" class="headerlink" title="规模与约定"></a>规模与约定</h4><p>对于全部的测试点，保证 $1 &lt; L \le 10^6$。</p><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>以后再说</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>给你一个字符串 $s_1$，它是由某个字符串 $s_2$ 不断自我连接形成的。但是字符串 $s_2$ 是不确定的，现在只想知道它的最短长度是多少。</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行一个整数 $L$，表示给出字符串的长度。 </p><p>第二行给出字符串 $s_1$ 的一个子串，全由小写字母组成。</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>仅一行，表示 $s_2$ 的最短长度。</p><h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">cabcabca</span><br></pre></td></tr></table></figure><h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><h3 id="样例输入输出-1-解释"><a href="#样例输入输出-1-解释" class="headerlink" title="样例输入输出 1 解释"></a>样例输入输出 1 解释</h3><p>对于样例，我们可以利用 $\texttt{abc}$ 不断自我连接得到 $\texttt{abcabcabc}$，读入的 $\texttt{cabcabca}$，是它的子串。</p><h3 id="规模与约定"><a href="#规模与约定" class="headerlink" title="规模与约定"></a>规模与约定</h3><p>对于全部的测试点，保证 $1 &lt; L \le 10^6$。</p><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>以后再说</p>]]></content>
       
       
       <categories>
@@ -547,8 +572,6 @@
       
         <tags>
             
-            <tag> 想法 </tag>
-            
             <tag> acg </tag>
             
             <tag> 电影 </tag>
@@ -633,9 +656,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -644,9 +667,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

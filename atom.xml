@@ -6,7 +6,7 @@
   <link href="https://loveofpeach.github.io/atom.xml" rel="self"/>
   
   <link href="https://loveofpeach.github.io/"/>
-  <updated>2023-04-07T15:55:42.691Z</updated>
+  <updated>2023-04-08T03:23:40.443Z</updated>
   <id>https://loveofpeach.github.io/</id>
   
   <author>
@@ -17,20 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2304_select</title>
+    <title>2304 - select</title>
     <link href="https://loveofpeach.github.io/posts/985e3562.html"/>
     <id>https://loveofpeach.github.io/posts/985e3562.html</id>
     <published>2023-04-07T15:26:28.000Z</published>
-    <updated>2023-04-07T15:55:42.691Z</updated>
+    <updated>2023-04-08T03:23:40.443Z</updated>
     
-    <content type="html"><![CDATA[<p>在网上常常能遇到一些有价值的分享，不记录下来有些可惜。因此我打算每个月精选一些内容，以备遗忘。文字内容可转载的我会贴出来，视频则给出链接。</p><hr><p><strong>【视频】 经济机器是怎样运行的 (时长30分钟) Ray Dalio</strong></p><p><a href="https://www.youtube.com/watch?v=rFV7wdEX-Mo">https://www.youtube.com/watch?v=rFV7wdEX-Mo</a></p><p>短小精悍的经济学科普。</p><p>从三个因素出发，生产率的提高、短期债务周期、长期债务周期，介绍了一个经济模型。有助于了解我们在过去、当前的处境，以及未来可能的发展方向。</p>]]></content>
+    <content type="html"><![CDATA[<p>在网上常常能遇到一些有价值的分享，不记录下来有些可惜。因此我打算每个月精选一些内容，以备遗忘。文字内容可转载的我会贴出来，视频则给出链接。</p><p>选取内容并不代表博主的观点，内容不会做任何修改。</p><hr><p><strong>【视频】 经济机器是怎样运行的 (时长30分钟) Ray Dalio</strong></p><p>中文版 <a href="https://www.youtube.com/watch?v=rFV7wdEX-Mo">https://www.youtube.com/watch?v=rFV7wdEX-Mo</a></p><p>英文原版 <a href="https://www.youtube.com/watch?v=PHe0bXAIuk0">https://www.youtube.com/watch?v=PHe0bXAIuk0</a></p><p>短小精悍的经济学科普。</p><p>从三个因素出发，生产率的提高、短期债务周期、长期债务周期，介绍了一个经济模型。有助于了解我们在过去、当前的处境，以及未来可能的发展方向。</p><p><strong>【视频】 The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?</strong></p><p><a href="https://www.youtube.com/watch?v=h7apO7q16V0">https://www.youtube.com/watch?v=h7apO7q16V0</a></p><p>In this video, we take a look at one of the most beautiful algorithms ever created: the Fast Fourier Transform (FFT). This is a tricky algorithm to understand so we take a look at it in a context that we are all familiar with: polynomial multiplication. You will see how the core ideas of the FFT can be “discovered” through asking the right questions. The key insights that are presented in this video is that polynomial multiplication can be improved significantly by multiplying polynomials in a special value representation. The challenge that presents itself is the problem of converting a polynomial from a standard coefficient representation to value representation. </p><p>We see that the FFT is an incredibly efficient recursive algorithm that performs this task, and we also discover that a slightly tweaked FFT (Inverse FFT) can also solve the reverse problem of interpolation. If this video doesn’t blow your mind, I don’t know what will. </p><p><strong>【文字】 如何评价漫画《绝望先生》？</strong></p><p>作者：Kalinka<br>链接：<a href="https://www.zhihu.com/question/24835833/answer/40643204">https://www.zhihu.com/question/24835833/answer/40643204</a></p><p>我们也许可以理解这部作品讲述的是；一位贵公子身旁经过一位女高中生，在擦肩而过时，突然女子的帽子被风吹掉了，贵公子看到了赶紧过去捡，他们的位置发生了位移，导致那位女高中生被车撞到，女高中生医治无效死亡后，身份信息下面写着器官全部捐献，看到这些的贵公子很心痛，他认为应该是自己被撞死。所以为了让良心得到安慰，找来一大帮人包括被捐助者，雇佣他们每天“上课”超度那位女高中生。七年了，每天都有一位捐献者负责扮演女高中生与他对话，直到有一段时间所有扮演者都发生了人格障碍，镜子前的她们都成了那名女高中生，那位贵公子也发现自己爱上了那位已经死去的人，他草草解散了那些顾来的人，然后跑到一个荒无人烟的小岛上尝试和其他人接触，并忘记七年里发生的一切。然而教室里也只剩下那些被捐助者，她们也爱上了这位曾经的老师，她们的每一部分都属于那位女高中生，她们决定披上婚纱奔向小岛和他结婚。</p><p>贵公子在小岛上差不多快从痛苦中解脱时，她们来了……高喊着先生，老师，穿着婚纱一起唱着那位女高中生生前喜爱的歌，他看到此情此景明白自己爱上那个人已成事实。于是他为了和她在一起选择了跳海自杀，完。</p><p>这是一部好作品，个人认为作者在表面上来戏谑讽刺当时日本社会以及亚洲地区的各种社会事件，实际上是为了掩盖人物内心的绝望。</p><p>而这也许就像现实生活中，我们平时为忘记一些不愉快的事所做的一样。三四十人坐在一间教室侃大山，就是为了忘记曾经那位援助他们的女高中生。</p><p>但从系色望的角度讲，他的性格集合了所有绝望少女的绝望特征。想死必须活，想活必须死，一切事情都是反着来，真的令人绝望透顶。当他绝望时便会出现希望，当他有希望时便会出现绝望。</p><p>从作品里看，其实可符香和变形记的人物塑造虽然有异曲同工之妙，但人物结局却又截然不同。变形记的主人公格里高尔变成了甲虫，本作女主变成了由一个人变成了十二个人（十二个人都认为自己是可符香），变形记的主人公被家人排斥，而可符香被其他人所接纳，但他们都有一个共同点就是贫穷，而且这两部作品中阐述的思想有一个共通点 ，即万恶的资本主义制度下 ，如果你没有用就会被社会遗弃，就会被身边人忽视，如果你有用那么你就会被社会接纳就会被身边人重视。</p><p>人人为自己，上帝为大家。生既为恶，死既为善。也许是这个作品的主旨吧。</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;在网上常常能遇到一些有价值的分享，不记录下来有些可惜。因此我打算每个月精选一些内容，以备遗忘。文字内容可转载的我会贴出来，视频则给出链接。&lt;/p&gt;
+&lt;p&gt;选取内容并不代表博主的观点，内容不会做任何修改。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;【视频】 经济机器是怎样运行的 (时长30分钟) Ray Dalio&lt;/strong&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;strong&gt;【视频】 经济机器是怎样运行的</summary>
       
     
     

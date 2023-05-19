@@ -385,21 +385,14 @@
   </url>
   
   <url>
+    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
+    <lastmod>2023-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://loveofpeach.github.io/tags/%E7%BA%A7%E6%95%B0/</loc>
-    <lastmod>2023-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/tags/acg/</loc>
-    <lastmod>2023-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -413,7 +406,14 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/acg/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -483,13 +483,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/C/</loc>
-    <lastmod>2023-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E6%B1%A4%E6%B5%85%E6%94%BF%E6%98%8E/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -512,6 +505,13 @@
   
   <url>
     <loc>https://loveofpeach.github.io/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2023-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/C/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -555,6 +555,13 @@
   </url>
   
   <url>
+    <loc>https://loveofpeach.github.io/categories/ACG/</loc>
+    <lastmod>2023-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://loveofpeach.github.io/categories/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -563,13 +570,6 @@
   
   <url>
     <loc>https://loveofpeach.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveofpeach.github.io/categories/ACG/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

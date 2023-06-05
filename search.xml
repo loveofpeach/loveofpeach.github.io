@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Fourier Stuff</title>
+      <link href="/posts/7f212daa.html"/>
+      <url>/posts/7f212daa.html</url>
+      
+        <content type="html"><![CDATA[<p>先介绍前置知识，单位根<a href="#bib1" id="bib1ref"><sup>[1]</sup></a>。</p><p>方程 $z^n=1\quad (n=1,2,3,\cdots)$ 的复数根 $z$ 为 <strong>$n$ 次单位根</strong>。</p><p>下面求解该方程<a href="#bib2" id="bib2ref"><sup>[2]</sup></a>。</p><p>已知欧拉公式<a href="#bib3" id="bib3ref"><sup>[3]</sup></a>：</p><script type="math/tex; mode=display">e^{i\pi}+1=0</script><p>则：</p><script type="math/tex; mode=display">(e^{i\pi})^2=(-1)^2</script><script type="math/tex; mode=display">e^{2i\pi}=1</script><p>两边作 $k$ 次方：</p><script type="math/tex; mode=display">e^{i2k\pi}=1</script><p>再取 $n$ 次根，得：</p><script type="math/tex; mode=display">\sqrt[n]{1}=e^{i2\pi \frac{k}{n}}=\cos 2\pi \frac{k}{n}+i\sin 2\pi \frac{k}{n}</script><p>由三角函数的周期性易知，其根有 $n$ 个，分别是 $k$ 取 $0,1,2,\cdots ,n-1$</p><p>即，单位的 $n$ 次根有 $n$ 个：</p><script type="math/tex; mode=display">e^{\frac{2\pi ki}{n}} \quad (k=0,1,2,\cdots ,n-1)</script><p>单位的 $n$ 次根以乘法构成 $n$ 阶循环群，生成元是 <strong>$n$ 次本原单位根</strong>。$n$ 次本原单位根是 $e^{\frac{2\pi ki}{n}}$ ，其中 $k$ 和 $n$ 互质。因此由欧拉函数定义，$n$ 次本原单位根数目为欧拉函数 $\phi (n)$</p><hr><p><a id="bib1" href="#bib1ref"><sup>[1]</sup></a> <a href="https://zh.wikipedia.org/zh-cn/%E5%8D%95%E4%BD%8D%E6%A0%B9">维基百科-单位根</a> （已备份）</p><p><a id="bib2" href="#bib2ref"><sup>[2]</sup></a> 本过程参考自某知乎回答截图，暂时没有找到源链接</p><p><a id="bib3" href="#bib3ref"><sup>[3]</sup></a> 相关推导见 <a href="https://loveofpeach.github.io/posts/1b45ac71.html">SeriesNote</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>暂为今日所作</title>
       <link href="/posts/4c71d97e.html"/>
       <url>/posts/4c71d97e.html</url>

@@ -398,13 +398,6 @@
 
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/select/</loc>
-    <lastmod>2023-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -412,7 +405,7 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%AF%A1%E8%BE%A9/</loc>
+    <loc>https://loveofpeach.github.io/tags/select/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -433,7 +426,14 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E5%8C%97%E4%BA%AC/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E8%AF%A1%E8%BE%A9/</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -461,7 +461,7 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E5%8C%97%E4%BA%AC/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -517,13 +517,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2023-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E6%B1%A4%E6%B5%85%E6%94%BF%E6%98%8E/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -538,7 +531,7 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/OpenCV/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -546,6 +539,20 @@
   
   <url>
     <loc>https://loveofpeach.github.io/tags/Minecraft/</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/OpenCV/</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/%E4%BB%8A%E6%95%8F/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -566,13 +573,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E4%BB%8A%E6%95%8F/</loc>
-    <lastmod>2023-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E7%BB%8F%E6%B5%8E/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -582,13 +582,6 @@
 
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/%E8%BD%AC%E8%BD%BD/</loc>
-    <lastmod>2023-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/categories/%E6%9D%82/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -596,7 +589,7 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/categories/%E8%A7%82%E7%82%B9/</loc>
+    <loc>https://loveofpeach.github.io/categories/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -611,6 +604,13 @@
   
   <url>
     <loc>https://loveofpeach.github.io/categories/ACG/</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/categories/%E8%A7%82%E7%82%B9/</loc>
     <lastmod>2023-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

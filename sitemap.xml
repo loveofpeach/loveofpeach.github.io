@@ -451,6 +451,20 @@
   </url>
   
   <url>
+    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
+    <lastmod>2023-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://loveofpeach.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -465,13 +479,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/hexo/</loc>
-    <lastmod>2023-06-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E5%8C%97%E4%BA%AC/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -479,14 +486,14 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E8%8B%B1%E8%AF%AD/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%8B%B1%E8%AF%AD/</loc>
+    <loc>https://loveofpeach.github.io/tags/C/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -521,13 +528,6 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/%E8%AE%A1%E7%BB%84/</loc>
-    <lastmod>2023-06-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveofpeach.github.io/tags/%E6%B1%A4%E6%B5%85%E6%94%BF%E6%98%8E/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -542,7 +542,7 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/C/</loc>
+    <loc>https://loveofpeach.github.io/tags/%E8%AE%A1%E7%BB%84/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -563,14 +563,14 @@
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/Minecraft/</loc>
+    <loc>https://loveofpeach.github.io/tags/OpenCV/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://loveofpeach.github.io/tags/OpenCV/</loc>
+    <loc>https://loveofpeach.github.io/tags/Minecraft/</loc>
     <lastmod>2023-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

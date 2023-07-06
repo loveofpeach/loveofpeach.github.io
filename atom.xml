@@ -6,7 +6,7 @@
   <link href="https://loveofpeach.github.io/atom.xml" rel="self"/>
   
   <link href="https://loveofpeach.github.io/"/>
-  <updated>2023-07-05T04:53:32.825Z</updated>
+  <updated>2023-07-06T08:53:24.938Z</updated>
   <id>https://loveofpeach.github.io/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="https://loveofpeach.github.io/posts/7ccfe718.html"/>
     <id>https://loveofpeach.github.io/posts/7ccfe718.html</id>
     <published>2023-07-05T04:39:12.000Z</published>
-    <updated>2023-07-05T04:53:32.825Z</updated>
+    <updated>2023-07-06T08:53:24.938Z</updated>
     
-    <content type="html"><![CDATA[<p>应试向的数据结构考试和实际写起代码来有很大区别。重复造轮子就不说了，更可怕的是，有时还需要应试者人脑模拟算法的执行过程。相对来说，对针对具体问题设计算法的考察较浅。另外，应试的码风和算法竞赛全然不同，这点需要特别注意。</p><p>以后填坑。</p>]]></content>
+    <content type="html"><![CDATA[<p>应试向的数据结构考试和实际写起代码来有很大区别。重复造轮子就不说了，更可怕的是，有时还需要应试者人脑模拟算法的执行过程。相对来说，对针对具体问题设计算法的考察较浅。</p><p>另外，应试的码风和算法竞赛全然不同，有时王道书的代码 C/C++ 混写，我尽量改为了 C++ 写法，这点需要特别注意。</p><p>本文中所有代码除非注明，均不保证能运行，甚至不能保证合乎语法。</p><h2 id="线性表"><a href="#线性表" class="headerlink" title="线性表"></a>线性表</h2><p>线性表：</p><ul><li>顺序存储<ul><li>顺序表</li></ul></li><li>链式存储<ul><li>单链表（指针实现）</li><li>双链表（指针实现）</li><li>循环链表（指针实现）</li><li>静态链表（借助数组实现）</li></ul></li></ul><p>线性表的顺序存储类型描述为：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> MaxSize = <span class="number">50</span>;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">SqList</span>&#123;</span><br><span class="line">  ElemType data[MaxSize];</span><br><span class="line">  <span class="type">int</span> length;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>动态分配：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> InitSize = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">SeqList</span>&#123;</span><br><span class="line">  ElemType* data;</span><br><span class="line">  <span class="type">int</span> MaxSize, length;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>C++ 的初始动态分配语句为：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">L.data = <span class="keyword">new</span> ElemType[InitSize];</span><br></pre></td></tr></table></figure><p><strong>注意：动态分配并不是链式存储，它同样属于顺序存储结构，物理结构没有变化，依然是随机存取方式，只是分配的空间大小可以在运行时动态决定。</strong></p><p>例：17 页第 11 题。</p><p>顺序表的操作：插入、删除、按值查找。这部分的代码自己实现就行。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;应试向的数据结构考试和实际写起代码来有很大区别。重复造轮子就不说了，更可怕的是，有时还需要应试者人脑模拟算法的执行过程。相对来说，对针对具体问题设计算法的考察较浅。另外，应试的码风和算法竞赛全然不同，这点需要特别注意。&lt;/p&gt;
-&lt;p&gt;以后填坑。&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;应试向的数据结构考试和实际写起代码来有很大区别。重复造轮子就不说了，更可怕的是，有时还需要应试者人脑模拟算法的执行过程。相对来说，对针对具体问题设计算法的考察较浅。&lt;/p&gt;
+&lt;p&gt;另外，应试的码风和算法竞赛全然不同，有时王道书的代码 C/C++ 混写，我尽量改为了 C++ </summary>
       
     
     
@@ -493,16 +492,14 @@
     <link href="https://loveofpeach.github.io/posts/db0b4310.html"/>
     <id>https://loveofpeach.github.io/posts/db0b4310.html</id>
     <published>2023-02-01T09:21:58.000Z</published>
-    <updated>2023-06-26T01:03:54.001Z</updated>
+    <updated>2023-07-06T08:07:14.992Z</updated>
     
-    <content type="html"><![CDATA[<p>以后填坑。</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="https://player.bilibili.com/player.html?aid=80433022&bvid=BV1GJ411x7h7&cid=137649199&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe></div>]]></content>
+    <content type="html"><![CDATA[<h2 id="第一章PPT"><a href="#第一章PPT" class="headerlink" title="第一章PPT"></a>第一章PPT</h2><p><img src="https://bu.dusays.com/2023/07/06/64a6740515e57.jpg" alt="第一章PPT-01.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674056112e.jpg" alt="第一章PPT-02.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674040e1e8.jpg" alt="第一章PPT-03.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67403ed7d3.jpg" alt="第一章PPT-04.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67404892a9.jpg" alt="第一章PPT-05.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674033cf7a.jpg" alt="第一章PPT-06.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674046c121.jpg" alt="第一章PPT-07.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6740521e62.jpg" alt="第一章PPT-08.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67404a3d1f.jpg" alt="第一章PPT-09.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67404583cb.jpg" alt="第一章PPT-10.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/pMmnxEhFAUC3QSN.jpg" alt="第一章PPT-11.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/QDKFpqNcnZLX62a.jpg" alt="第一章PPT-12.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/EYiFQd9WuwsJU4R.jpg" alt="第一章PPT-13.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/MwH59mVN8uJa41Z.jpg" alt="第一章PPT-14.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/YlifQkSE5J4FrpU.jpg" alt="第一章PPT-15.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/LbPgV2598SIKZQU.jpg" alt="第一章PPT-16.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/qu6ocCgP4WnROiN.jpg" alt="第一章PPT-17.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/F3yRKHP5B6EtlYk.jpg" alt="第一章PPT-18.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/ax4fDpJgFsvSIdC.jpg" alt="第一章PPT-19.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/BiXoNZYkgpzQ1dK.jpg" alt="第一章PPT-20.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e4c10d.jpg" alt="第一章PPT-21.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d277a1.jpg" alt="第一章PPT-22.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d7d30f.jpg" alt="第一章PPT-23.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e76669.jpg" alt="第一章PPT-24.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757db165c.jpg" alt="第一章PPT-25.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d50dc0.jpg" alt="第一章PPT-26.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d935ac.jpg" alt="第一章PPT-27.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e6d0ad.jpg" alt="第一章PPT-28.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e1b0cd.jpg" alt="第一章PPT-29.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e4c104.jpg" alt="第一章PPT-30.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/2NqXWT7nBipmCRJ.jpg" alt="第一章PPT-31.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/ZCsGcHt1qWSVozb.jpg" alt="第一章PPT-32.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/ed7VrJgNYlfXcj6.jpg" alt="第一章PPT-33.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/ByZ6On7WXbKvN85.jpg" alt="第一章PPT-34.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/r4N6Yaze72sQSAj.jpg" alt="第一章PPT-35.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/wEHzNvP8hjZtS7D.jpg" alt="第一章PPT-36.jpg"></p><p><img src="https://s2.loli.net/2023/07/06/EYkxdSOHCbBtuia.jpg" alt="第一章PPT-37.jpg"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;以后填坑。&lt;/p&gt;
-&lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 75%;&quot;&gt;
-    &lt;iframe src=&quot;https://player.bilibili.com/pla</summary>
+    <summary type="html">&lt;h2 id=&quot;第一章PPT&quot;&gt;&lt;a href=&quot;#第一章PPT&quot; class=&quot;headerlink&quot; title=&quot;第一章PPT&quot;&gt;&lt;/a&gt;第一章PPT&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://bu.dusays.com/2023/07/06/64a6740515e</summary>
       
     
     

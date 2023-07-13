@@ -20,7 +20,9 @@
       
         <tags>
             
-            <tag> 算法 </tag>
+            <tag> tarjan </tag>
+            
+            <tag> lca </tag>
             
         </tags>
       
@@ -980,7 +982,39 @@
       
         <tags>
             
-            <tag> 算法 </tag>
+            <tag> KMP </tag>
+            
+            <tag> tarjan </tag>
+            
+            <tag> lca </tag>
+            
+            <tag> 埃氏筛 </tag>
+            
+            <tag> 并查集 </tag>
+            
+            <tag> 自适应辛普森 </tag>
+            
+            <tag> Huffman树 </tag>
+            
+            <tag> 拓扑排序 </tag>
+            
+            <tag> kruscal </tag>
+            
+            <tag> spfa </tag>
+            
+            <tag> dijkstra </tag>
+            
+            <tag> 树状数组 </tag>
+            
+            <tag> 割边 </tag>
+            
+            <tag> 割点 </tag>
+            
+            <tag> 高精度 </tag>
+            
+            <tag> 二分图 </tag>
+            
+            <tag> Trie </tag>
             
         </tags>
       
@@ -1178,22 +1212,22 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>About</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<blockquote><p>“你的人生一定会比别人活得麻烦。慵懒烦躁的无可救药。”<br>“但那不是因为你有多优秀，而是因为你有多软弱。”<br>“你这一辈子都要怀抱着这份软弱活下去。”<br>“但愿你不要把这种麻烦，当作自己的生存价值。”</p></blockquote><p>我还在北京瞎转的时候，总是要挤挤满了人的地铁。地铁上总是座无虚席，抓手也不剩几个，多数人站着只是因为他前后左右的人也是站着的而已。这黑色的麦田中，黄底黑字的抓手广告特别惹眼：</p><p>BOSS 直聘 | 站着也能刷 BOSS 直聘了</p><p>这些抓手会一排排地、有序地延伸下去，然后在连接的另一个车厢里拐个弯继续将整个列车串起来。这种景象十分有趣（amusing）：一根巨大的晾衣绳，将整个列车的人都晾了起来，列车起停，人们东倒西歪，就是一阵玄色的麦浪。</p><p>晚上洗完澡后，我一定会经过近邻宝的快递箱。这个时候一天的快递件差不多都被取走，员工们会把箱门打开准备明天的工作。</p><p>一排排、一列列、一箱箱的张开不同角度的门。</p><p>这些层层叠叠的形式将一丝诙谐蕴含其中，终于在大学快要结束的时候，为我带来了救赎。</p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>About</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>“你的人生一定会比别人活得麻烦。慵懒烦躁的无可救药。”<br>“但那不是因为你有多优秀，而是因为你有多软弱。”<br>“你这一辈子都要怀抱着这份软弱活下去。”<br>“但愿你不要把这种麻烦，当作自己的生存价值。”</p></blockquote><p>我还在北京瞎转的时候，总是要挤挤满了人的地铁。地铁上总是座无虚席，抓手也不剩几个，多数人站着只是因为他前后左右的人也是站着的而已。这黑色的麦田中，黄底黑字的抓手广告特别惹眼：</p><p>BOSS 直聘 | 站着也能刷 BOSS 直聘了</p><p>这些抓手会一排排地、有序地延伸下去，然后在连接的另一个车厢里拐个弯继续将整个列车串起来。这种景象十分有趣（amusing）：一根巨大的晾衣绳，将整个列车的人都晾了起来，列车起停，人们东倒西歪，就是一阵玄色的麦浪。</p><p>晚上洗完澡后，我一定会经过近邻宝的快递箱。这个时候一天的快递件差不多都被取走，员工们会把箱门打开准备明天的工作。</p><p>一排排、一列列、一箱箱的张开不同角度的门。</p><p>这些层层叠叠的形式将一丝诙谐蕴含其中，终于在大学快要结束的时候，为我带来了救赎。</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

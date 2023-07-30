@@ -6,7 +6,7 @@
   <link href="https://loveofpeach.github.io/atom.xml" rel="self"/>
   
   <link href="https://loveofpeach.github.io/"/>
-  <updated>2023-07-23T04:25:00.600Z</updated>
+  <updated>2023-07-30T17:44:51.890Z</updated>
   <id>https://loveofpeach.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>听《二泉》</title>
+    <link href="https://loveofpeach.github.io/posts/bf733412.html"/>
+    <id>https://loveofpeach.github.io/posts/bf733412.html</id>
+    <published>2023-07-30T16:54:25.000Z</published>
+    <updated>2023-07-30T17:44:51.890Z</updated>
+    
+    <content type="html"><![CDATA[<p>无锡某处的阿炳雕像曾给我留下深刻的印象。乍看上去，他好像并非哪里的伟人，竟是和芸芸众生一样，受难之后低下自己的头颅，满不在乎地继续生活。但他谦卑地戴上帽子，架上圆形的墨镜，支起二胡，撑开右臂，彷佛将要用磅礴无尽的力量推出弓时——时间于此刻凝固。</p><p>时隔多年，我竟有幸听到当年录制的原声：</p><p><img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.4JgaeLzyr2oAt-IPnCV-fAHaE8" alt="48-1" title="来自网络"></p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="https://player.bilibili.com/player.html?aid=44559834&bvid=BV1xb411a7hx&cid=78007090&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe></div><p>有一些演奏会上的二泉映月，技巧高超，细节饱满丰富，还有很多其他乐器的伴奏，但是却不一定能像这个视频里的一样触动人心。</p><p>事实上，如果能“有幸”见到一个真正的靠着街头卖艺讨生活的人，你会更加深刻地认识到：人，是被命运卷入其中的。</p><p>十几年前，C 市的路上还跑着数不清的人力三轮，市中心（现在已是旧城区）的街道边，或是唯一一家肯德基的门店前，常常能遇到这样的卖艺人。他们的技巧非常粗糙，甚至可以说是刚刚能把音发出来，有人的琴不知是不是自己做的，一个非常简陋的，送别人都没人要的琴。然而就是这样的琴，拉出的二泉（也许还是和同行学的），却最能撬动人心设防的深处。因为那些演奏会上的，太过从容，太过华丽，太过完美，也太过奢侈了。而这些街头的人，才构成了我们这个社会最真实的图景。</p><blockquote><p>呜呼，我本东西南北人。我曾经夜泊于赤马关外，和着潮声而慷慨悲歌；我曾经客旅于北越，夜闻离别之曲而悲泣。我曾经于月明风清之夜，耳听着中国海上的欸乃之声；又曾经在一个雪天的清晨，行进于南萨的道上，听赶马人的歌唱。这些都打动了我的心扉。而那街头的一片市声，却不能使我肝肠寸断。（德富芦花）</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;无锡某处的阿炳雕像曾给我留下深刻的印象。乍看上去，他好像并非哪里的伟人，竟是和芸芸众生一样，受难之后低下自己的头颅，满不在乎地继续生活。但他谦卑地戴上帽子，架上圆形的墨镜，支起二胡，撑开右臂，彷佛将要用磅礴无尽的力量推出弓时——时间于此刻凝固。&lt;/p&gt;
+&lt;p&gt;时隔多年，我竟</summary>
+      
+    
+    
+    
+    <category term="杂" scheme="https://loveofpeach.github.io/categories/%E6%9D%82/"/>
+    
+    
+    <category term="音乐" scheme="https://loveofpeach.github.io/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
   
   <entry>
     <title>算法题集子</title>
@@ -37,9 +62,9 @@
     <category term="做题" scheme="https://loveofpeach.github.io/categories/%E5%81%9A%E9%A2%98/"/>
     
     
-    <category term="lca" scheme="https://loveofpeach.github.io/tags/lca/"/>
-    
     <category term="tarjan" scheme="https://loveofpeach.github.io/tags/tarjan/"/>
+    
+    <category term="lca" scheme="https://loveofpeach.github.io/tags/lca/"/>
     
     <category term="模拟退火" scheme="https://loveofpeach.github.io/tags/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB/"/>
     
@@ -515,31 +540,6 @@
     
     
     <category term="acg" scheme="https://loveofpeach.github.io/tags/acg/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算机网络笔记</title>
-    <link href="https://loveofpeach.github.io/posts/db0b4310.html"/>
-    <id>https://loveofpeach.github.io/posts/db0b4310.html</id>
-    <published>2023-02-01T09:21:58.000Z</published>
-    <updated>2023-07-30T02:21:29.784Z</updated>
-    
-    <content type="html"><![CDATA[<p>写在前面：</p><p>虽然本笔记的大多数内容是王道的 PPT ，但也是有我的注释的！王道的课程真的很好，咸鱼学长讲课生动又仔细。每年的课件和视频都是有变化的，我这里把 PPT 贴出来只是自用，本文章禁止转载。最后附上王道的网站：<code>cskaoyan.com</code>。</p><h2 id="第一章PPT"><a href="#第一章PPT" class="headerlink" title="第一章PPT"></a>第一章PPT</h2><p><img src="https://bu.dusays.com/2023/07/06/64a6740515e57.jpg" alt="第一章PPT-01.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674056112e.jpg" alt="第一章PPT-02.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674040e1e8.jpg" alt="第一章PPT-03.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67403ed7d3.jpg" alt="第一章PPT-04.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67404892a9.jpg" alt="第一章PPT-05.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674033cf7a.jpg" alt="第一章PPT-06.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a674046c121.jpg" alt="第一章PPT-07.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6740521e62.jpg" alt="第一章PPT-08.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67404a3d1f.jpg" alt="第一章PPT-09.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a67404583cb.jpg" alt="第一章PPT-10.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b9158779.jpg" alt="第一章PPT-11.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b932db44.jpg" alt="第一章PPT-12.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b92f024b.jpg" alt="第一章PPT-13.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b92b5a4e.jpg" alt="第一章PPT-14.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b92dfa53.jpg" alt="第一章PPT-15.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b92ec3a9.jpg" alt="第一章PPT-16.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b92012d5.jpg" alt="第一章PPT-17.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b9328eb9.jpg" alt="第一章PPT-18.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b923087b.jpg" alt="第一章PPT-19.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79b92df022.jpg" alt="第一章PPT-20.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e4c10d.jpg" alt="第一章PPT-21.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d277a1.jpg" alt="第一章PPT-22.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d7d30f.jpg" alt="第一章PPT-23.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e76669.jpg" alt="第一章PPT-24.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757db165c.jpg" alt="第一章PPT-25.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d50dc0.jpg" alt="第一章PPT-26.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757d935ac.jpg" alt="第一章PPT-27.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e6d0ad.jpg" alt="第一章PPT-28.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e1b0cd.jpg" alt="第一章PPT-29.jpg"></p><p><img src="https://bu.dusays.com/2023/07/06/64a6757e4c104.jpg" alt="第一章PPT-30.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79c32778fa.jpg" alt="第一章PPT-31.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79c324baaf.jpg" alt="第一章PPT-32.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79c31d5451.jpg" alt="第一章PPT-33.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79c31ad989.jpg" alt="第一章PPT-34.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79c3217fa9.jpg" alt="第一章PPT-35.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79c3291b60.jpg" alt="第一章PPT-36.jpg"></p><p><img src="https://bu.dusays.com/2023/07/07/64a79c3255acc.jpg" alt="第一章PPT-37.jpg"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;写在前面：&lt;/p&gt;
-&lt;p&gt;虽然本笔记的大多数内容是王道的 PPT ，但也是有我的注释的！王道的课程真的很好，咸鱼学长讲课生动又仔细。每年的课件和视频都是有变化的，我这里把 PPT 贴出来只是自用，本文章禁止转载。最后附上王道的网站：&lt;code&gt;cskaoyan.com&lt;/c</summary>
-      
-    
-    
-    
-    <category term="笔记" scheme="https://loveofpeach.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="网络" scheme="https://loveofpeach.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   

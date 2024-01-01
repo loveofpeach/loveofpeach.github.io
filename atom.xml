@@ -6,7 +6,7 @@
   <link href="https://loveofpeach.github.io/atom.xml" rel="self"/>
   
   <link href="https://loveofpeach.github.io/"/>
-  <updated>2023-12-31T12:18:24.814Z</updated>
+  <updated>2024-01-01T14:20:53.861Z</updated>
   <id>https://loveofpeach.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库笔记</title>
+    <link href="https://loveofpeach.github.io/posts/aaba1da3.html"/>
+    <id>https://loveofpeach.github.io/posts/aaba1da3.html</id>
+    <published>2024-01-01T12:00:26.000Z</published>
+    <updated>2024-01-01T14:20:53.861Z</updated>
+    
+    <content type="html"><![CDATA[<p>数据库学习笔记。</p><h2 id="数据库的基本概念与分类"><a href="#数据库的基本概念与分类" class="headerlink" title="数据库的基本概念与分类"></a>数据库的基本概念与分类</h2><p>数据库的引入：<br>存储数据的结构或方式</p><ul><li>数组、链表：基于内存，短暂存储</li><li>文件：永久性存储，但是不利于查找</li><li>数据库：可以永久存储，并且可以更好的查找</li></ul><p>数据库的定义：存储结构化数据的仓库。<br>结构化数据一般指存储在数据库中，具有一定逻辑结构和物理结构的数据。</p><p>数据库的分类：</p><ul><li>关系型数据库<ul><li>通过外键关联来建立表与表之间的关系</li><li>例如：Oracle、MySQL、DB2、Informix、SQL Server、SQLite</li><li>关系型数据库把复杂的数据结构归结为简单的二元关系，在存储数据时实际就是采用的一张二维表（和Word和excell里表格几乎一样）</li><li>市场占有量较大的是MySQL和oracle数据库，而互联网场景最常用的是MySQL数据库</li><li>它通过SQL结构化查询语言来存取、管理关系型数据库的数据</li></ul></li><li>非关系型数据库<ul><li>数据以对象的形式存储在数据库中，而对象之间的关系通过每个对象自身的属性来决定</li><li>不是对关系型数据库的否定，而是补充，主要针对大数据</li><li>种类<ul><li>键值对（key-value）：Redis、Memcached</li><li>按列存储：Hbase、Scylla、Cassandra</li><li>面向文档：MongoDB、CouchDB</li><li>图形存储：Neo4J</li></ul></li></ul></li></ul><p>数据库管理软件（DBMS）<br>数据库管理员（DBA）</p><p>数据库服务器、数据库和表的关系：</p><p><img src="https://bu.dusays.com/2024/01/01/6592be1d25bd0.png" alt="61-1.png"></p><p>数据在数据库中的存储方式：</p><p><img src="https://bu.dusays.com/2024/01/01/6592bfa307acc.png" alt="61-2.png"></p><p>SQL（Structured Query Language）：结构化查询语言</p><ul><li>是一种定义、操作、管理关系型数据库的句法。大多数关系型数据库都支持</li><li>结构化查询语言的工业标准由ANSI（美国国家标准学会，ISO的成员之一）维护</li><li>组成：<ul><li>DQL：数据查询语言</li><li>DML（Data Manipulation Language）：数据操作语言</li><li>DDL：数据定义语言</li><li>DCL：数据控制语言</li><li>TPL：事务处理语言</li><li>CCL：指针控制语言</li></ul></li></ul><p>mysql 的安装： <a href="https://www.bilibili.com/video/BV12q4y1U7sZ">https://www.bilibili.com/video/BV12q4y1U7sZ</a></p><p>数据库大小写不敏感。</p><p>DDL（Data Definition Language）数据定义语言</p><ul><li>作用：用于描述数据库中要存储的现实世界实体的语言。即<strong>创建数据库和表的结构</strong>。</li><li>常用关键字：<ul><li><code>CREATE</code>：创建</li><li><code>ALTER</code>：修改</li><li><code>DROP</code>：删除</li><li><code>TRUNCATE</code>：截断</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;数据库学习笔记。&lt;/p&gt;
+&lt;h2 id=&quot;数据库的基本概念与分类&quot;&gt;&lt;a href=&quot;#数据库的基本概念与分类&quot; class=&quot;headerlink&quot; title=&quot;数据库的基本概念与分类&quot;&gt;&lt;/a&gt;数据库的基本概念与分类&lt;/h2&gt;&lt;p&gt;数据库的引入：&lt;br&gt;存储数据的结构</summary>
+      
+    
+    
+    
+    <category term="计算机" scheme="https://loveofpeach.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+    <category term="数据库" scheme="https://loveofpeach.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CppNote2</title>
+    <link href="https://loveofpeach.github.io/posts/2259c81e.html"/>
+    <id>https://loveofpeach.github.io/posts/2259c81e.html</id>
+    <published>2024-01-01T11:17:08.000Z</published>
+    <updated>2024-01-01T11:34:44.289Z</updated>
+    
+    <content type="html"><![CDATA[<p>前期提要： <a href="https://loveofpeach.github.io/posts/54b4d7a2.html">CppNote</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;前期提要： &lt;a href=&quot;https://loveofpeach.github.io/posts/54b4d7a2.html&quot;&gt;CppNote&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="编程" scheme="https://loveofpeach.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="C++" scheme="https://loveofpeach.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>2023 总结</title>
@@ -486,55 +536,6 @@
     
     
     <category term="谵妄" scheme="https://loveofpeach.github.io/tags/%E8%B0%B5%E5%A6%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fourier Stuff</title>
-    <link href="https://loveofpeach.github.io/posts/7f212daa.html"/>
-    <id>https://loveofpeach.github.io/posts/7f212daa.html</id>
-    <published>2023-06-05T14:04:34.000Z</published>
-    <updated>2023-10-22T03:13:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><p>方程 $z^n=1\quad (n=1,2,3,\cdots)$ 的复数根 $z$ 为 <strong>$n$ 次单位根</strong><a href="#bib1" id="bib1ref"><sup>[1]</sup></a>。</p><p>下面求解该方程。</p><p>已知欧拉公式<a href="#bib2" id="bib2ref"><sup>[2]</sup></a>：</p><script type="math/tex; mode=display">e^{i\pi}+1=0</script><p>则：</p><script type="math/tex; mode=display">(e^{i\pi})^2=(-1)^2</script><script type="math/tex; mode=display">e^{2i\pi}=1</script><p>两边作 $k$ 次方：</p><script type="math/tex; mode=display">e^{i2k\pi}=1</script><p>再取 $n$ 次根，得：</p><script type="math/tex; mode=display">\sqrt[n]{1}=e^{i2\pi \frac{k}{n}}=\cos 2\pi \frac{k}{n}+i\sin 2\pi \frac{k}{n}</script><p>由三角函数的周期性易知，其根有 $n$ 个，分别是 $k$ 取 $0,1,2,\cdots ,n-1$</p><p>即，单位的 $n$ 次根有 $n$ 个：</p><script type="math/tex; mode=display">e^{\frac{2\pi ki}{n}} \quad (k=0,1,2,\cdots ,n-1)</script><p>单位的 $n$ 次根以乘法构成 $n$ 阶循环群，生成元是 <strong>$n$ 次本原单位根</strong>。$n$ 次本原单位根是 $e^{\frac{2\pi ki}{n}}$ ，其中 $k$ 和 $n$ 互质。因此由欧拉函数定义，$n$ 次本原单位根数目为欧拉函数 $\varphi (n)$ .</p><p>例子：</p><ul><li>一次单位根有一个：$1$</li><li>二次单位根有两个：$+1$ 和 $-1$ ，只有 $-1$ 是本原根</li><li>三次单位根是（除 1 外都是本原根）：<script type="math/tex; mode=display">\{1,\frac{-1+\sqrt{3}i}{2},\frac{-1-\sqrt{3}i}{2}\}</script></li><li>四次单位根是：$\{1,+i,-1,-i\}$ ，其中 $+i$ 和 $-i$ 是本原根</li></ul><p>当 $n$ 不小于 2 时，n 次单位根总和为 0 .</p><script type="math/tex; mode=display">\sum\limits_{k=0}^{n-1}e^{\frac{2\pi ki}{n}}=\frac{e^{\frac{2\pi kni}{n}}-1}{e^{\frac{2\pi i}{n}}-1}=\frac{1-1}{e^{\frac{2\pi i}{n}}-1}=0</script><p>该结果在复平面上是显然的。</p><h2 id="FFT-多项式乘法"><a href="#FFT-多项式乘法" class="headerlink" title="FFT 多项式乘法"></a>FFT 多项式乘法</h2><p>部分内容参考自视频 <a href="https://www.youtube.com/watch?v=h7apO7q16V0&amp;ab_channel=Reducible">The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?</a> 只有生肉，没有找到较好的翻译版本。因此使用了部分英语表述。这个视频在记法上有一些蛊惑人心的地方，我就按照自己的习惯来了。</p><p>问题引入：我们试图计算两个多项式的乘积。朴素的做法是使用乘法的分配律在 $O(n^2)$ 时间内完成。现在需要寻找更高效的算法。</p><p>为此引入 Polynomial Representation 的另一种方法：value representation.</p><p>Coefficient Representation :</p><script type="math/tex; mode=display">P(x)=p_0+p_1x+p_2x^2+\cdots p_dx^d</script><script type="math/tex; mode=display">\begin{matrix} \underbrace{[p_0,p_1,\cdots ,p_d]} \\ {\scriptstyle\text{Coefficient Representation}} \end{matrix}</script><p>Value Representation :</p><script type="math/tex; mode=display">\begin{matrix} \underbrace{\{(x_0,P(x_0)),(x_1,P(x_1)),\cdots ,(x_d,P(x_d))\}} \\ {\scriptstyle\text{Value Representation}} \end{matrix}</script><p>两者之间的关系：</p><p>$(d+1)$ points uniquely define a degree $d$ polynomial.</p><p>$e.g.$</p><script type="math/tex; mode=display">\{(-1,0),(0,1),(1,0),(2,1)\}</script><p>Corresponds to</p><script type="math/tex; mode=display">P(x)=\frac{2}{3}x^3-x^2-\frac{2}{3}x+1</script><p>$Proof.$</p><script type="math/tex; mode=display">\begin{bmatrix}P(x_0)  \\P(x_1)  \\\vdots  \\P(x_d)  \end{bmatrix}=\begin{bmatrix}1  & x_0  & x_0^2  & \cdots  & x_0^d  \\1  & x_1  & x_1^2  & \cdots  & x_1^d  \\\vdots & \vdots & \vdots & \ddots & \vdots \\1  & x_d  &x_d^2  & \cdots & x_d^d\end{bmatrix}\begin{bmatrix}p_0  \\p_1  \\\vdots  \\p_d  \end{bmatrix}</script><p>Clearly, the determinant of the matrix above is the Vandermonde determinant.</p><p>Since the chosen values of $x_i (i=0,1,2,\cdots ,d)$ are distinct from each other, the Vandermonde determinant is non-zero.</p><script type="math/tex; mode=display">\det \begin{pmatrix}\begin{bmatrix}1  & x_0  & x_0^2  & \cdots  & x_0^d  \\1  & x_1  & x_1^2  & \cdots  & x_1^d  \\\vdots & \vdots & \vdots & \ddots & \vdots \\1  & x_d  &x_d^2  & \cdots & x_d^d\end{bmatrix}\end{pmatrix}=\prod_{0\leqslant j<i\leqslant d}(x_i-x_j)\neq 0</script><p>Therefore, the matrix is invertible, and the equation has a unique solution.</p><p>Hence, a bijection is established between the value representation and the coefficient representation of the polynomial through this matrix. $(d+1)$ points uniquely define a degree $d$ polynomial.</p><p>■</p><p>有了两个多项式的 value representation ，就可以很容易地计算出这两个多项式的乘积的 value representation.</p><p>整个过程的大致思路如下：</p><p><img src="https://bu.dusays.com/2023/06/06/647ef11d64daf.jpg" alt="41-1.jpg"></p><p>首先考虑 Coeff 到 Value 的转换。</p><p>我们尝试计算 n-1 次多项式 $P(x)$ 在</p><script type="math/tex; mode=display">x=\pm x_1,\pm x_2,\cdots ,\pm x_{n/2}</script><p>处的值，寻找能减少计算量的思路。</p><p>将 $P(x)$ 按项的次数奇偶分类：</p><script type="math/tex; mode=display">P(x)=P_e(x^2)+xP_o(x^2)</script><p>得到 $P_e(x)$ 和 $P_o(x)$ . 于是：</p><script type="math/tex; mode=display">P(\pm a)=P_e(a^2)\pm aP_o(a^2)</script><p>于是问题转化为求 $P_e(x)$ 和 $P_o(x)$ 在 $a^2$ 处的值，这个过程似乎可以递归地进行。而且这两个多项式的次数比原来下降了一半。看起来很 nice .</p><p>而问题是，进入第二层递归时，我们的采样点就不是相反数对了。递归失败。</p><p>以上尝试给出了有益的思路，接下来为了制造相反数对，考虑将数域拓展到复数。</p><p>在下图中，任一节点的值的平方等于父节点的值：</p><p><img src="https://bu.dusays.com/2023/06/06/647efb554cffa.png" alt="41-2.png"></p><p>满足我们想要的性质。注意这里为方便原理展示对采样点数目 $n$ 作了限制：$n=2^k,k\in \mathbb{N}$ . 同时这也是对多项式次数的限制。</p><p>依据在前置知识中的结论，单位根在复平面中如下所示：</p><p><img src="https://bu.dusays.com/2023/06/06/647efeaed5e9e.png" alt="41-3.png"></p><p>并且，由相关性质，可以得到相反数对：</p><p><img src="https://bu.dusays.com/2023/06/06/647effba57508.png" alt="41-4.png"></p><script type="math/tex; mode=display">\omega ^{j+n/2}=-\omega ^j</script><p>下面总结一下算法的流程。</p><p>为求出 n-1 次多项式 $P(x)$ 的 value representation ，需要计算其在</p><script type="math/tex; mode=display">x=\omega ^0,\omega ^1,\cdots ,\omega ^{n-1} \quad | \quad \omega =e^{\frac{2\pi i}{n}}</script><p>处的值。为了减少计算量，将 $P(x)$ 按项的次数奇偶分类：</p><script type="math/tex; mode=display">P(x)=P_e(x^2)+xP_o(x^2)</script><p>由是发现需要求解 $P_e(x)$ 和 $P_o(x)$ 在</p><script type="math/tex; mode=display">\omega ^0,\omega ^2,\omega ^4, \cdots ,\omega ^{n-2}</script><p>处的值。这个过程可以递归地完成。</p><blockquote><p>注意这里就是原视频蛊惑人心的地方，UP主在记法上的不严谨可能会导致理解上的困难。$P_e(x)$ 和 $P_o(x)$ 是将公式 $P(x)=P_e(x^2)+xP_o(x^2)$ 右侧的多项式 $P_e(x^2)$ 和 $P_o(x^2)$ 看作 $x^2$ 的函数用 $x$ 改写得到的。</p></blockquote><p>假设递归成功，就得到了 $P_e(x)$ 和 $P_o(x)$ 的 value representation . 记数组（从 0 开始编号）：</p><script type="math/tex; mode=display">y_e[...]=[P_e(\omega ^0),P_e(\omega ^2),\cdots ,P_e(\omega ^{n-2})]</script><script type="math/tex; mode=display">y_o[...]=[P_o(\omega ^0),P_o(\omega ^2),\cdots ,P_o(\omega ^{n-2})]</script><p>现在要做的是，由此得到原来的多项式的 value representation .</p><p>在上面得到的公式</p><script type="math/tex; mode=display">P(\pm a)=P_e(a^2)\pm aP_o(a^2)</script><p>中，令 $a=\omega ^j$ 得：</p><script type="math/tex; mode=display">P(\pm \omega ^j)=P_e(\omega ^{2j})\pm \omega ^jP_o(\omega ^{2j})</script><p>再由 $\omega ^{j+n/2}=-\omega ^j$ 得：</p><script type="math/tex; mode=display">P(\omega ^j)=P_e(\omega ^{2j})+ \omega ^jP_o(\omega ^{2j})</script><script type="math/tex; mode=display">P(\omega ^{j+n/2})=P_e(\omega ^{2j})- \omega ^jP_o(\omega ^{2j})</script><script type="math/tex; mode=display">j\in \{0,1,\cdots ,\frac{n}{2}-1 \}</script><p>又因为</p><script type="math/tex; mode=display">y_e[j]=P_e(\omega ^{2j})</script><script type="math/tex; mode=display">y_o[j]=P_o(\omega ^{2j})</script><p>于是</p><script type="math/tex; mode=display">P(\omega ^j)=y_e[j]+ \omega ^jy_o[j]</script><script type="math/tex; mode=display">P(\omega ^{j+n/2})=y_e[j]- \omega ^jy_o[j]</script><script type="math/tex; mode=display">j\in \{0,1,\cdots ,\frac{n}{2}-1 \}</script><p>最后返回该层多项式的 value representation 即可。</p><p>伪代码如下：</p><p><img src="https://bu.dusays.com/2023/06/06/647f4c3a1ba34.png" alt="41-5.png"></p><p>返回看下图 41-1.jpg ，还需要完成 Value 到 Coeff 的转换。</p><p>在之前的式子中：</p><script type="math/tex; mode=display">\begin{bmatrix}P(x_0)  \\P(x_1)  \\\vdots  \\P(x_{n-1})  \end{bmatrix}=\begin{bmatrix}1  & x_0  & x_0^2  & \cdots  & x_0^{n-1}  \\1  & x_1  & x_1^2  & \cdots  & x_1^{n-1}  \\\vdots & \vdots & \vdots & \ddots & \vdots \\1  & x_{n-1}  &x_{n-1}^2  & \cdots & x_{n-1}^{n-1}\end{bmatrix}\begin{bmatrix}p_0  \\p_1  \\\vdots  \\p_{n-1}  \end{bmatrix}</script><p>令 $x_k=\omega ^k\quad \mathrm{where}\quad \omega =e^{\frac{2\pi i}{n}}$</p><script type="math/tex; mode=display">\begin{bmatrix}P(\omega ^0)  \\P(\omega ^1)  \\P(\omega ^2)  \\\vdots  \\P(\omega ^{n-1})  \end{bmatrix}=\begin{bmatrix}1  & 1  & 1  & \cdots  & 1  \\1  & \omega  & \omega ^2  & \cdots  & \omega ^{n-1}  \\1  & \omega ^2  & \omega ^4  & \cdots  & \omega ^{2(n-1)}  \\\vdots & \vdots & \vdots & \ddots & \vdots \\1  & \omega ^{n-1}  & \omega ^{2(n-1)}  & \cdots & \omega ^{(n-1)(n-1)}\end{bmatrix}\begin{bmatrix}p_0  \\p_1  \\p_2  \\\vdots  \\p_{n-1}  \end{bmatrix}</script><p>上式中的矩阵被称为 <strong>Discrete Fourier Transform (DFT) matrix</strong></p><script type="math/tex; mode=display">\begin{bmatrix}p_0  \\p_1  \\p_2  \\\vdots  \\p_{n-1}  \end{bmatrix}=\begin{bmatrix}1  & 1  & 1  & \cdots  & 1  \\1  & \omega  & \omega ^2  & \cdots  & \omega ^{n-1}  \\1  & \omega ^2  & \omega ^4  & \cdots  & \omega ^{2(n-1)}  \\\vdots & \vdots & \vdots & \ddots & \vdots \\1  & \omega ^{n-1}  & \omega ^{2(n-1)}  & \cdots & \omega ^{(n-1)(n-1)}\end{bmatrix}^{-1}\begin{bmatrix}P(\omega ^0)  \\P(\omega ^1)  \\P(\omega ^2)  \\\vdots  \\P(\omega ^{n-1})  \end{bmatrix}</script><p>求出矩阵的逆：</p><script type="math/tex; mode=display">\begin{bmatrix}p_0  \\p_1  \\p_2  \\\vdots  \\p_{n-1}  \end{bmatrix}=\frac{1}{n}\begin{bmatrix}1  & 1  & 1  & \cdots  & 1  \\1  & \omega ^{-1} & \omega ^{-2}  & \cdots  & \omega ^{-(n-1)}  \\1  & \omega ^{-2}  & \omega ^{-4}  & \cdots  & \omega ^{-2(n-1)}  \\\vdots & \vdots & \vdots & \ddots & \vdots \\1  & \omega ^{-(n-1)}  & \omega ^{-2(n-1)}  & \cdots & \omega ^{-(n-1)(n-1)}\end{bmatrix}\begin{bmatrix}P(\omega ^0)  \\P(\omega ^1)  \\P(\omega ^2)  \\\vdots  \\P(\omega ^{n-1})  \end{bmatrix}</script><p>这个时候简直是 amazing 啊，上面这个矩阵和之前的那个矩阵形式几乎一样，那么我们在代码上只需要少量改动。</p><p>Every $\omega$ in original matrix is now $\frac{1}{n}\omega ^{-1}$ .</p><p>伪代码：</p><p><img src="https://bu.dusays.com/2023/06/07/647ff63a072b2.png" alt="41-6.png"></p><p>至此已分析完算法的原理部分。</p><h2 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2><p>欲知后事如何 …</p><hr><p><a id="bib1" href="#bib1ref"><sup>[1]</sup></a> 参考自<a href="https://zh.wikipedia.org/zh-cn/%E5%8D%95%E4%BD%8D%E6%A0%B9">维基百科 - 单位根</a> （已备份）</p><p><a id="bib2" href="#bib2ref"><sup>[2]</sup></a> 相关推导见 <a href="https://loveofpeach.github.io/posts/1b45ac71.html">SeriesNote</a> 函数的幂级数展开式的应用</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;前置知识&quot;&gt;&lt;a href=&quot;#前置知识&quot; class=&quot;headerlink&quot; title=&quot;前置知识&quot;&gt;&lt;/a&gt;前置知识&lt;/h2&gt;&lt;p&gt;方程 $z^n=1&#92;quad (n=1,2,3,&#92;cdots)$ 的复数根 $z$ 为 &lt;strong&gt;$n$ 次单位根&lt;/</summary>
-      
-    
-    
-    
-    <category term="算法" scheme="https://loveofpeach.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="FFT" scheme="https://loveofpeach.github.io/tags/FFT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>暂为今日所作</title>
-    <link href="https://loveofpeach.github.io/posts/4c71d97e.html"/>
-    <id>https://loveofpeach.github.io/posts/4c71d97e.html</id>
-    <published>2023-06-04T04:44:08.000Z</published>
-    <updated>2023-12-30T12:29:09.154Z</updated>
-    
-    <content type="html"><![CDATA[<p>去年期末封校那阵子，有一类人的心态特别有意思。</p><p>概括下学校的情况。学校每天covid新增比全市数据多一截，每天排队捅喉咙，三餐配送蔬菜炖肉沫，越往后越不新鲜，一股怪味。学生只能呆在自己的宿舍楼层，没有澡洗。某老师还一拍脑门，把厕所的地漏堵了，厕所里的具体情况就不细说了。彼时供暖公司又歇了菜，贴在暖气片上暖手都够呛，冬夜里只有蚊子与人作伴。</p><p>然而，在这种连释迦牟尼都无法释然的环境里，竟还是有人愿意苦中作乐，声称自己占了学校便宜：每天的饭钱。</p><p>有这么一种经典的桥段：一位德高望重的老师傅，手下一队弟子。某天一弟子犯了个小错误，这师傅暴跳如雷，当着众人的面，给这位倒霉蛋来了一下子。弟子赶忙认错：师傅打的有理，这事确是弟子的不是。</p><p>我常想，就算那弟子确实有过，但若是无心之举，也没有造成严重后果，就至于挨这一巴掌吗？而更奇怪的是，为什么弟子要说师傅打的有理呢？一方面他要表现出一个认错的态度，希望暂消了师傅的火气。另一方面，这话也是说给其他弟子和他自己听的。如果在众人面前假装自己的判断是错在自己、师傅占理，自己挨打就是应该的，那么面子就保住了。因为如果他不这么说，就等同于认为师傅的做法是过火的、野蛮的，但可惜自己又不能拿师傅怎么样，就只能给大伙留下一个弱小无力的形象。</p><p>假装认同、假装满意，然后面子保住了，不是吗？</p><p>学校配的菜又不要我们钱，今天还有个油鸡腿呢。</p><p>每天白吃白住，出了学校哪找去。</p><p>但匪夷所思的是，解封之后酒吧舞的又恰恰是这群人。</p><p>那个向师傅赔不是的人或许更加精明，但同时也丢掉了一些重要的东西。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;去年期末封校那阵子，有一类人的心态特别有意思。&lt;/p&gt;
-&lt;p&gt;概括下学校的情况。学校每天covid新增比全市数据多一截，每天排队捅喉咙，三餐配送蔬菜炖肉沫，越往后越不新鲜，一股怪味。学生只能呆在自己的宿舍楼层，没有澡洗。某老师还一拍脑门，把厕所的地漏堵了，厕所里的具体情况就</summary>
-      
-    
-    
-    
-    <category term="闲文" scheme="https://loveofpeach.github.io/categories/%E9%97%B2%E6%96%87/"/>
-    
-    
-    <category term="诡辩" scheme="https://loveofpeach.github.io/tags/%E8%AF%A1%E8%BE%A9/"/>
     
   </entry>
   

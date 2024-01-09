@@ -6,7 +6,7 @@
   <link href="https://loveofpeach.github.io/atom.xml" rel="self"/>
   
   <link href="https://loveofpeach.github.io/"/>
-  <updated>2024-01-09T13:08:28.831Z</updated>
+  <updated>2024-01-09T15:36:04.375Z</updated>
   <id>https://loveofpeach.github.io/</id>
   
   <author>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>CppNote2</title>
-    <link href="https://loveofpeach.github.io/posts/2259c81e.html"/>
-    <id>https://loveofpeach.github.io/posts/2259c81e.html</id>
+    <link href="https://loveofpeach.github.io/posts/2249c81f.html"/>
+    <id>https://loveofpeach.github.io/posts/2249c81f.html</id>
     <published>2024-01-09T12:59:53.000Z</published>
-    <updated>2024-01-09T13:08:28.831Z</updated>
+    <updated>2024-01-09T15:36:04.375Z</updated>
     
-    <content type="html"><![CDATA[<p>前情提要： <a href="https://loveofpeach.github.io/posts/54b4d7a2.html">CppNote</a></p><h2 id="在代码之前"><a href="#在代码之前" class="headerlink" title="在代码之前"></a>在代码之前</h2><h3 id="预处理"><a href="#预处理" class="headerlink" title="预处理"></a>预处理</h3><p>可以使用参数<code>-E</code>生成预处理之后的文件，以<code>i</code>结尾，生成之后的文件还是一个文本文件（代码）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">g++ -E helloworld.cpp -o helloworld.i</span><br></pre></td></tr></table></figure><h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h3><p>进行语法分析、词法分析、语义分析。</p><p>可以使用<code>-S</code>选项，生成汇编代码，以 s 结尾。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wanko@wanko:~/mycode$ g++ -S helloworld.i -o helloworld.s</span><br><span class="line">wanko@wanko:~/mycode$ file helloworld.s</span><br><span class="line">helloworld.s: assembler source, ASCII text</span><br></pre></td></tr></table></figure><p>注意：linux 不以后缀名区分文件，上面仅仅是习惯。</p>]]></content>
+    <content type="html"><![CDATA[<p>前情提要： <a href="https://loveofpeach.github.io/posts/54b4d7a2.html">CppNote</a></p><h2 id="在代码之前"><a href="#在代码之前" class="headerlink" title="在代码之前"></a>在代码之前</h2><h3 id="预处理"><a href="#预处理" class="headerlink" title="预处理"></a>预处理</h3><p>可以使用参数<code>-E</code>生成预处理之后的文件，以<code>i</code>结尾，生成之后的文件还是一个文本文件（代码）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">g++ -E helloworld.cpp -o helloworld.i</span><br></pre></td></tr></table></figure><h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h3><p>进行语法分析、词法分析、语义分析。</p><p>可以使用<code>-S</code>选项，生成汇编代码，以 s 结尾。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wanko@wanko:~/mycode$ g++ -S helloworld.i -o helloworld.s</span><br><span class="line">wanko@wanko:~/mycode$ file helloworld.s</span><br><span class="line">helloworld.s: assembler source, ASCII text</span><br></pre></td></tr></table></figure><p>注意：linux 不以后缀名区分文件，上面仅仅是习惯。</p><h3 id="汇编"><a href="#汇编" class="headerlink" title="汇编"></a>汇编</h3><p>。。。</p><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>。。。</p>]]></content>
     
     
       

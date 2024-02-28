@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>数据库应试笔记</title>
+      <link href="/posts/3beded87.html"/>
+      <url>/posts/3beded87.html</url>
+      
+        <content type="html"><![CDATA[<p>大意了，没有闪。</p><p>之前学习的数据库偏实践，还不足以应付考试。</p><p>另外应该是能进复试的。</p><p><img src="https://bu.dusays.com/2024/02/28/65df581912988.gif" alt="67-1.gif"></p><h2 id="概念模型"><a href="#概念模型" class="headerlink" title="概念模型"></a>概念模型</h2><div class="row"><iframe src="https://drive.google.com/file/d/1MgKC66v1yFREuq8J9-ZNsv2sw7nBug5n/preview" style="width:100%; height:550px"></iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CppNote3</title>
       <link href="/posts/555ef888.html"/>
       <url>/posts/555ef888.html</url>
@@ -1079,7 +1098,7 @@
       <link href="/posts/aae04aa8.html"/>
       <url>/posts/aae04aa8.html</url>
       
-        <content type="html"><![CDATA[<p>写在前面：</p><p>虽然本笔记的大多数内容是王道的 PPT ，但也是有我的注释的！王道的课程真的很好，咸鱼学长讲课生动又仔细。每年的课件和视频都是有变化的，我这里把 PPT 贴出来只是自用，本文章禁止转载。最后附上王道的网站：<code>cskaoyan.com</code>。</p><h2 id="计算机的发展（大纲已删-但建议看看）"><a href="#计算机的发展（大纲已删-但建议看看）" class="headerlink" title="计算机的发展（大纲已删 但建议看看）"></a>计算机的发展（大纲已删 但建议看看）</h2><p><img src="https://s2.loli.net/2023/07/04/YyAMfFBZOPT8qeN.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-1.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/ofRXleBkrqjYL5O.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-2.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/AOolIHqJu2LNivm.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-3.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/68cPSkmqDMEaWQR.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-4.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/jqRIli4B1T5Nsat.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-5.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/5gBHZzGQXLq8j7U.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-6.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/IjqH2Ck9QL7lONd.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-7.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/uM5zDpORcK8ZUIP.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-8.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/Psj4oOEVwAWSnQa.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-9.jpg"></p><h2 id="计算机硬件的基本组成"><a href="#计算机硬件的基本组成" class="headerlink" title="计算机硬件的基本组成"></a>计算机硬件的基本组成</h2><p><img src="https://bu.dusays.com/2023/07/04/64a44078318f2.jpg" alt="1.2_1_计算机硬件的基本组成-1.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a44078a3706.jpg" alt="1.2_1_计算机硬件的基本组成-2.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a440787ba4c.jpg" alt="1.2_1_计算机硬件的基本组成-3.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a440788b5b0.jpg" alt="1.2_1_计算机硬件的基本组成-4.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a4407895d75.jpg" alt="1.2_1_计算机硬件的基本组成-5.jpg"></p><h2 id="认识各个硬件部件"><a href="#认识各个硬件部件" class="headerlink" title="认识各个硬件部件"></a>认识各个硬件部件</h2><p><img src="https://bu.dusays.com/2023/07/09/64aa45c1b5c82.jpg" alt="1.2_2_认识各个硬件部件-1.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c4af32d.jpg" alt="1.2_2_认识各个硬件部件-2.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c404171.jpg" alt="1.2_2_认识各个硬件部件-3.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6765fa.jpg" alt="1.2_2_认识各个硬件部件-4.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6db71d.jpg" alt="1.2_2_认识各个硬件部件-5.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6e031d.jpg" alt="1.2_2_认识各个硬件部件-6.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6735b7.jpg" alt="1.2_2_认识各个硬件部件-7.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c4de7fb.jpg" alt="1.2_2_认识各个硬件部件-8.jpg"></p><h2 id="计算机系统的层次结构"><a href="#计算机系统的层次结构" class="headerlink" title="计算机系统的层次结构"></a>计算机系统的层次结构</h2><p><img src="https://bu.dusays.com/2023/07/09/64aa4630ea05d.jpg" alt="1.2_3_计算机系统的层次结构-1.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa4630dbd4b.jpg" alt="1.2_3_计算机系统的层次结构-2.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa46310a496.jpg" alt="1.2_3_计算机系统的层次结构-3.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa4631068e0.jpg" alt="1.2_3_计算机系统的层次结构-4.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<p>写在前面：</p><p>虽然本笔记的大多数内容是王道的 PPT ，但也是有我的注释的！王道的课程真的很好，咸鱼学长讲课生动又仔细。每年的课件和视频都是有变化的，我这里把 PPT 贴出来只是自用，本文章禁止转载。最后附上王道的网站：<code>cskaoyan.com</code>。</p><h2 id="计算机的发展（大纲已删-但建议看看）"><a href="#计算机的发展（大纲已删-但建议看看）" class="headerlink" title="计算机的发展（大纲已删 但建议看看）"></a>计算机的发展（大纲已删 但建议看看）</h2><p><img src="https://s2.loli.net/2023/07/04/YyAMfFBZOPT8qeN.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-1.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/ofRXleBkrqjYL5O.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-2.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/AOolIHqJu2LNivm.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-3.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/68cPSkmqDMEaWQR.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-4.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/jqRIli4B1T5Nsat.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-5.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/5gBHZzGQXLq8j7U.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-6.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/IjqH2Ck9QL7lONd.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-7.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/uM5zDpORcK8ZUIP.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-8.jpg"></p><p><img src="https://s2.loli.net/2023/07/04/Psj4oOEVwAWSnQa.jpg" alt="1.1_计算机的发展（大纲已删 但建议看看）-9.jpg"></p><h2 id="计算机硬件的基本组成"><a href="#计算机硬件的基本组成" class="headerlink" title="计算机硬件的基本组成"></a>计算机硬件的基本组成</h2><p><img src="https://bu.dusays.com/2023/07/04/64a44078318f2.jpg" alt="1.2_1_计算机硬件的基本组成-1.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a44078a3706.jpg" alt="1.2_1_计算机硬件的基本组成-2.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a440787ba4c.jpg" alt="1.2_1_计算机硬件的基本组成-3.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a440788b5b0.jpg" alt="1.2_1_计算机硬件的基本组成-4.jpg"></p><p><img src="https://bu.dusays.com/2023/07/04/64a4407895d75.jpg" alt="1.2_1_计算机硬件的基本组成-5.jpg"></p><h2 id="认识各个硬件部件"><a href="#认识各个硬件部件" class="headerlink" title="认识各个硬件部件"></a>认识各个硬件部件</h2><p><img src="https://bu.dusays.com/2023/07/09/64aa45c1b5c82.jpg" alt="1.2_2_认识各个硬件部件-1.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c4af32d.jpg" alt="1.2_2_认识各个硬件部件-2.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c404171.jpg" alt="1.2_2_认识各个硬件部件-3.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6765fa.jpg" alt="1.2_2_认识各个硬件部件-4.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6db71d.jpg" alt="1.2_2_认识各个硬件部件-5.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6e031d.jpg" alt="1.2_2_认识各个硬件部件-6.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c6735b7.jpg" alt="1.2_2_认识各个硬件部件-7.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa45c4de7fb.jpg" alt="1.2_2_认识各个硬件部件-8.jpg"></p><h2 id="计算机系统的层次结构"><a href="#计算机系统的层次结构" class="headerlink" title="计算机系统的层次结构"></a>计算机系统的层次结构</h2><p><img src="https://bu.dusays.com/2023/07/09/64aa4630ea05d.jpg" alt="1.2_3_计算机系统的层次结构-1.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa4630dbd4b.jpg" alt="1.2_3_计算机系统的层次结构-2.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa46310a496.jpg" alt="1.2_3_计算机系统的层次结构-3.jpg"></p><p><img src="https://bu.dusays.com/2023/07/09/64aa4631068e0.jpg" alt="1.2_3_计算机系统的层次结构-4.jpg"></p><div class="note info simple"><p>以下内容实际学习于 2024年2月28日</p></div><h2 id="计算机的性能指标"><a href="#计算机的性能指标" class="headerlink" title="计算机的性能指标"></a>计算机的性能指标</h2><div class="row"><iframe src="https://drive.google.com/file/d/1lHlVraS2nAUYznoJHIu9PGXvHztgnxuE/preview" style="width:100%; height:550px"></iframe></div><h2 id="进位计数制"><a href="#进位计数制" class="headerlink" title="进位计数制"></a>进位计数制</h2><div class="row"><iframe src="https://drive.google.com/file/d/1_Ao7ZmY9QPrJ8eU8yWAXbnRqAJE4qSZS/preview" style="width:100%; height:550px"></iframe></div><h2 id="BCD-码"><a href="#BCD-码" class="headerlink" title="BCD 码"></a>BCD 码</h2><div class="row"><iframe src="https://drive.google.com/file/d/14ovmVOpnCuO-F_lpFR9BG0SnCBtu5YGu/preview" style="width:100%; height:550px"></iframe></div><h2 id="无符号整数的表示和运算"><a href="#无符号整数的表示和运算" class="headerlink" title="无符号整数的表示和运算"></a>无符号整数的表示和运算</h2><div class="row"><iframe src="https://drive.google.com/file/d/1UAo1dpgsA-ZvGxGiCJDKezIdqgZ_xcdi/preview" style="width:100%; height:550px"></iframe></div><h2 id="带符号整数的表示和运算"><a href="#带符号整数的表示和运算" class="headerlink" title="带符号整数的表示和运算"></a>带符号整数的表示和运算</h2><div class="row"><iframe src="https://drive.google.com/file/d/1kSsqHJms6oa1J3kytObo1axnWrfrzxSE/preview" style="width:100%; height:550px"></iframe></div><h2 id="原反补码的特性对比"><a href="#原反补码的特性对比" class="headerlink" title="原反补码的特性对比"></a>原反补码的特性对比</h2><p><img src="https://bu.dusays.com/2024/02/28/65df54bbe2b8b.jpg" alt="2.1_5_原反补码的特性对比-1.jpg"></p><p><img src="https://bu.dusays.com/2024/02/28/65df54bc47589.jpg" alt="2.1_5_原反补码的特性对比-2.jpg"></p><h2 id="移码"><a href="#移码" class="headerlink" title="移码"></a>移码</h2><div class="row"><iframe src="https://drive.google.com/file/d/1gFeRucEK-3bKeVquE2jyfBd3BudZrZge/preview" style="width:100%; height:550px"></iframe></div>]]></content>
       
       
       <categories>
@@ -1433,9 +1452,9 @@
       
         <tags>
             
-            <tag> tarjan </tag>
-            
             <tag> KMP </tag>
+            
+            <tag> tarjan </tag>
             
             <tag> lca </tag>
             
@@ -1675,11 +1694,11 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>QAQ</title>
+      <link href="/QAQ/index.html"/>
+      <url>/QAQ/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>这是一个隐藏彩蛋 QAQ</p><!-- flag of hidden posts -->]]></content>
       
     </entry>
     
@@ -1708,9 +1727,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1730,11 +1749,11 @@
     
     
     <entry>
-      <title>QAQ</title>
-      <link href="/QAQ/index.html"/>
-      <url>/QAQ/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<p>这是一个隐藏彩蛋 QAQ</p><!-- flag of hidden posts -->]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

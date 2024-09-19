@@ -1,0 +1,309 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Python 进阶 | loveofpeach's</title><meta name="keywords" content="python"><meta name="author" content="love of peach"><meta name="copyright" content="love of peach"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="零碎知识这里是 Python 的一些零碎知识点。 多值参数: 12345678910def demo(num, *args, **kwargs):    print(num)    print(args)    print(kwargs)demo(1, 2, 3, 4, 5, name&#x3D;&quot;小明&quot;, age &#x3D; 18, gender &#x3D; True)# 1# (2, 3, 4, 5">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python 进阶">
+<meta property="og:url" content="https://loveofpeach.github.io/posts/85b8f708.html">
+<meta property="og:site_name" content="loveofpeach&#39;s">
+<meta property="og:description" content="零碎知识这里是 Python 的一些零碎知识点。 多值参数: 12345678910def demo(num, *args, **kwargs):    print(num)    print(args)    print(kwargs)demo(1, 2, 3, 4, 5, name&#x3D;&quot;小明&quot;, age &#x3D; 18, gender &#x3D; True)# 1# (2, 3, 4, 5">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2024/09/19/g6BWIuD2GaXCT7U.png">
+<meta property="article:published_time" content="2024-09-19T04:40:27.000Z">
+<meta property="article:modified_time" content="2024-09-19T04:47:31.035Z">
+<meta property="article:author" content="love of peach">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2024/09/19/g6BWIuD2GaXCT7U.png"><link rel="shortcut icon" href="/img/favicon2.jpg"><link rel="canonical" href="https://loveofpeach.github.io/posts/85b8f708"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":230},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Python 进阶',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-09-19 12:47:31'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="loveofpeach's" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/05/11/imB1IJdnFGKj89s.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">85</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2024/09/19/g6BWIuD2GaXCT7U.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">loveofpeach's</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Python 进阶</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2024-09-19T04:40:27.000Z" title="发表于 2024-09-19 12:40:27">2024-09-19</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.2k</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="零碎知识"><a href="#零碎知识" class="headerlink" title="零碎知识"></a>零碎知识</h1><p>这里是 Python 的一些零碎知识点。</p>
+<p>多值参数:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">demo</span>(<span class="params">num, *args, **kwargs</span>):</span><br><span class="line">    <span class="built_in">print</span>(num)</span><br><span class="line">    <span class="built_in">print</span>(args)</span><br><span class="line">    <span class="built_in">print</span>(kwargs)</span><br><span class="line"></span><br><span class="line">demo(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, name=<span class="string">&quot;小明&quot;</span>, age = <span class="number">18</span>, gender = <span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 1</span></span><br><span class="line"><span class="comment"># (2, 3, 4, 5)</span></span><br><span class="line"><span class="comment"># &#123;&#x27;name&#x27;: &#x27;小明&#x27;, &#x27;age&#x27;: 18, &#x27;gender&#x27;: True&#125;</span></span><br></pre></td></tr></table></figure>
+<p>另外，了解元组和字典的拆包（自行查找资料）。</p>
+<p><code>if __name__ == &quot;__main__&quot;</code> 是什么？</p>
+<blockquote>
+<p>该语句下面缩进的内容在<code>python xxx.py</code>时会执行，而在<code>import xxx</code>时不会执行。</p>
+</blockquote>
+<p><strong>类属性</strong>，类似于 C++ 中的<strong>类的静态成员</strong>。</p>
+<p><strong>类方法</strong>：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@classmethod   </span><span class="comment"># 装饰器</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">show_tool_cnt</span>(<span class="params">cls</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;工具对象总数： %d&quot;</span> % cls.count)</span><br></pre></td></tr></table></figure>
+<h1 id="单例模式"><a href="#单例模式" class="headerlink" title="单例模式"></a>单例模式</h1><p>实现起来比 C++ 简单。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">MusicPlayer</span>(<span class="title class_ inherited__">object</span>):</span><br><span class="line">    instance = <span class="literal">None</span>    <span class="comment"># 类属性</span></span><br><span class="line"></span><br><span class="line"><span class="meta">    @classmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__new__</span>(<span class="params">cls, *args, **kwargs</span>):</span><br><span class="line">        <span class="keyword">if</span> cls.instance <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;创建对象，分配空间&quot;</span>)</span><br><span class="line">            cls.instance = <span class="built_in">super</span>().__new__(cls)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> cls.instance</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, music_name</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;播放器初始化&quot;</span>)</span><br><span class="line">        self.music_name = music_name</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">player1 = MusicPlayer(<span class="string">&#x27;弯弯的月亮&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(player1.music_name)</span><br><span class="line"></span><br><span class="line">player2 = MusicPlayer(<span class="string">&#x27;竹楼情歌&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(player2.music_name)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(player1)</span><br><span class="line"><span class="built_in">print</span>(player2)</span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">创建对象，分配空间</span></span><br><span class="line"><span class="string">播放器初始化</span></span><br><span class="line"><span class="string">弯弯的月亮</span></span><br><span class="line"><span class="string">播放器初始化</span></span><br><span class="line"><span class="string">竹楼情歌</span></span><br><span class="line"><span class="string">&lt;__main__.MusicPlayer object at 0x7f4c18f16790&gt;</span></span><br><span class="line"><span class="string">&lt;__main__.MusicPlayer object at 0x7f4c18f16790&gt;</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<h1 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h1><h2 id="观其大略"><a href="#观其大略" class="headerlink" title="观其大略"></a>观其大略</h2><p>在实际开发中，为了能够处理复杂的异常情况，完整的异常语法如下（伪代码）：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># 尝试执行的代码</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">except</span> 错误类型 <span class="number">1</span>:</span><br><span class="line">    <span class="comment"># 针对错误类型 1，对应的代码处理</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">except</span> 错误类型 <span class="number">2</span>:</span><br><span class="line">    <span class="comment"># 针对错误类型 2，对应的代码处理</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">except</span> (错误类型 <span class="number">3</span>, 错误类型 <span class="number">4</span>):</span><br><span class="line">    <span class="comment"># 针对错误类型 3 和 4，对应的代码处理</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">except</span> Exception <span class="keyword">as</span> result:</span><br><span class="line">    <span class="comment"># 打印错误信息</span></span><br><span class="line">    <span class="built_in">print</span>(result)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="comment"># 没有异常才会执行的代码</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">finally</span>:</span><br><span class="line">    <span class="comment"># 无论是否有异常，都会执行的代码</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;无论是否有异常，都会执行的代码&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="异常的传递"><a href="#异常的传递" class="headerlink" title="异常的传递"></a>异常的传递</h2><p>当函数执行出现异常，会将异常传递给函数的调用一方。如果传递到主程序，仍然没有异常处理，程序才会被终止。</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">demo1</span>():</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;输入整数：&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">demo2</span>():</span><br><span class="line">    <span class="keyword">return</span> demo1() <span class="comment"># 利用异常的传递性，在主程序捕获异常</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="built_in">print</span>(demo2())</span><br><span class="line"><span class="keyword">except</span> Exception <span class="keyword">as</span> result:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;未知错误 %s&quot;</span> % result)</span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">输入整数：abc</span></span><br><span class="line"><span class="string">未知错误 invalid literal for int() with base 10: &#x27;abc&#x27;</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<h2 id="抛出-raise-异常"><a href="#抛出-raise-异常" class="headerlink" title="抛出 raise 异常"></a>抛出 raise 异常</h2><p>应用场景：<br>在开发中，除了代码执行出错 Python 解释器会抛出异常之外，还可以<strong>根据应用程序特有的业务需求主动抛出异常。</strong></p>
+<p>示例：<br>提示用户输入密码，如果长度少于 8，抛出异常。当前函数只负责提示用户输入密码，如果密码长度不正确，需要其他的函数进行额外处理，因此可以抛出异常，由其他需要处理的函数捕获异常。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">input_password</span>():</span><br><span class="line"></span><br><span class="line">    pwd = <span class="built_in">input</span>(<span class="string">&quot;请输入密码：&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(pwd) &gt;= <span class="number">8</span>:</span><br><span class="line">        <span class="keyword">return</span> pwd</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;主动抛出异常&quot;</span>)</span><br><span class="line">    ex = Exception(<span class="string">&quot;密码长度不够&quot;</span>)</span><br><span class="line">    <span class="keyword">raise</span> ex</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="built_in">print</span>(input_password())</span><br><span class="line"><span class="keyword">except</span> Exception <span class="keyword">as</span> result:</span><br><span class="line">    <span class="built_in">print</span>(result)</span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">请输入密码：123</span></span><br><span class="line"><span class="string">主动抛出异常</span></span><br><span class="line"><span class="string">密码长度不够</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">请输入密码：1234234545</span></span><br><span class="line"><span class="string">1234234545</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>让自定义异常像通用异常一样使用（若链接内容不可访问，可去 archive.ph 查找）：<br><a target="_blank" rel="noopener" href="https://python3-cookbook.readthedocs.io/zh-cn/latest/c14/p08_creating_custom_exceptions.html">https://python3-cookbook.readthedocs.io/zh-cn/latest/c14/p08_creating_custom_exceptions.html</a></p>
+<h1 id="模块和包"><a href="#模块和包" class="headerlink" title="模块和包"></a>模块和包</h1><p>原则：每一个文件都可以被导入。</p>
+<p>一个独立的 Python 文件就是一个模块。在导入文件时，文件中所有没有任何缩进的代码，都会被执行一遍。因此需要配合 <code>__name__</code> 属性使用。</p>
+<p><strong>包是一个包含多个模块的特殊目录。</strong> 目录下有一个特殊的文件 <code>__init__.py</code></p>
+<p>在外界使用包中的模块：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/09/16/6hNBfD2TYicIrqP.png" alt="86-1.png"></p>
+<p>如果希望自己开发的模块，分享给其他人，可以按照以下步骤操作：</p>
+<ol>
+<li>制作发布压缩包<ol>
+<li>创建 <code>setup.py</code></li>
+<li>构建模块</li>
+<li>生成发布压缩包</li>
+</ol>
+</li>
+<li>安装模块</li>
+</ol>
+<p>创建 <code>setup.py</code>：</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/09/16/2NuGxiRUlYeVAwH.png" alt="86-2.png"></p>
+<p>构建模块：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 setup.py build</span><br></pre></td></tr></table></figure>
+<p>生成发布压缩包（注意：要制作哪个版本的模块，就使用哪个版本的解释器执行）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 setup.py sdist</span><br></pre></td></tr></table></figure>
+<p>安装模块（示例）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tar xf wd_message-1.0.tar.gz</span><br><span class="line">cd wd_message-1.0</span><br><span class="line">sudo python3 setup.py install</span><br></pre></td></tr></table></figure>
+<p>卸载模块（直接从安装目录下，把安装模块的目录删除就可以）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/lib/python3.6/dist-packages/</span><br><span class="line">sudo rm -r wd_message*</span><br></pre></td></tr></table></figure>
+<h1 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h1><p>没什么好记录的，大致和 Cpp 差不多。</p>
+<p>展示目录：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">dir_dfs</span>(<span class="params">path, width</span>):</span><br><span class="line">    file_list = os.listdir(path)</span><br><span class="line">    <span class="keyword">for</span> filename <span class="keyword">in</span> file_list:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27; &#x27;</span>*width + filename)</span><br><span class="line">        <span class="keyword">if</span> os.path.isdir(path+<span class="string">&#x27;/&#x27;</span>+filename):</span><br><span class="line">            dir_dfs(path+<span class="string">&#x27;/&#x27;</span>+filename, width+<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    dir_dfs(<span class="string">&#x27;.&#x27;</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://loveofpeach.github.io">love of peach</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://loveofpeach.github.io/posts/85b8f708.html">https://loveofpeach.github.io/posts/85b8f708.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://loveofpeach.github.io" target="_blank">loveofpeach's</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/python/">python</a></div><div class="post_share"><div class="social-share" data-image="https://s2.loli.net/2024/09/19/g6BWIuD2GaXCT7U.png" data-sites="facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://sway.office.com/s/earvb0OKBw38frLT/images/MlKmiZMe5C5Gf5" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sway.office.com/s/earvb0OKBw38frLT/images/MlKmiZMe5C5Gf5" alt="Thanks ᗜ ‸ ᗜ"/></a><div class="post-qr-code-desc">Thanks ᗜ ‸ ᗜ</div></li><li class="reward-item"><a href="https://sway.office.com/s/C4drow041G0kHpIc/images/tO2U2uk1DoetkI" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sway.office.com/s/C4drow041G0kHpIc/images/tO2U2uk1DoetkI" alt="₍ᐢ.ˬ.⑅ᐢ₎"/></a><div class="post-qr-code-desc">₍ᐢ.ˬ.⑅ᐢ₎</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/a9230f8f.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://c.kksk.ltd/api-images/library-small/genshin-impact/91364618_p0.webp" onerror="onerror=null;src='/img/404me.png'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">前端入门</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/47c25c56.html" title="turtle 绘制锅巴"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bu.dusays.com/2023/03/17/6414638a45ae5.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-17</div><div class="title">turtle 绘制锅巴</div></div></a></div><div><a href="/posts/2afe57ff.html" title="Minecraft with Python"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bu.dusays.com/2023/04/22/6443b45c11e2d.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-04-22</div><div class="title">Minecraft with Python</div></div></a></div><div><a href="/posts/7b6f8cd.html" title="PythonNote"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sway.office.com/s/YRS8FqIyVMqWwkPl/images/Iv-c08LLPYz8-g" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-07</div><div class="title">PythonNote</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/05/11/imB1IJdnFGKj89s.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">love of peach</div><div class="author-info__description">把你 TeriTeri 掉哦～(∠・ω< )⌒★</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">85</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/loveofpeach"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">右下设置简繁切换。安卓和 linux 上代码无法正常缩进。图片均有备份，无法加载可联系博主恢复。部分资源需翻墙。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9B%B6%E7%A2%8E%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">零碎知识</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">单例模式</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8"><span class="toc-number">3.</span> <span class="toc-text">异常</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%82%E5%85%B6%E5%A4%A7%E7%95%A5"><span class="toc-number">3.1.</span> <span class="toc-text">观其大略</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8%E7%9A%84%E4%BC%A0%E9%80%92"><span class="toc-number">3.2.</span> <span class="toc-text">异常的传递</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8A%9B%E5%87%BA-raise-%E5%BC%82%E5%B8%B8"><span class="toc-number">3.3.</span> <span class="toc-text">抛出 raise 异常</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A8%A1%E5%9D%97%E5%92%8C%E5%8C%85"><span class="toc-number">4.</span> <span class="toc-text">模块和包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C"><span class="toc-number">5.</span> <span class="toc-text">文件操作</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/85b8f708.html" title="Python 进阶"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/09/19/g6BWIuD2GaXCT7U.png" onerror="this.onerror=null;this.src='/img/404me.png'" alt="Python 进阶"/></a><div class="content"><a class="title" href="/posts/85b8f708.html" title="Python 进阶">Python 进阶</a><time datetime="2024-09-19T04:40:27.000Z" title="发表于 2024-09-19 12:40:27">2024-09-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/a9230f8f.html" title="前端入门"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://c.kksk.ltd/api-images/library-small/genshin-impact/91364618_p0.webp" onerror="this.onerror=null;this.src='/img/404me.png'" alt="前端入门"/></a><div class="content"><a class="title" href="/posts/a9230f8f.html" title="前端入门">前端入门</a><time datetime="2024-09-08T08:23:52.000Z" title="发表于 2024-09-08 16:23:52">2024-09-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/1d11fe8c.html" title="手写数字识别"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/09/06/bPumfncHzeh4raO.jpg" onerror="this.onerror=null;this.src='/img/404me.png'" alt="手写数字识别"/></a><div class="content"><a class="title" href="/posts/1d11fe8c.html" title="手写数字识别">手写数字识别</a><time datetime="2024-09-06T04:49:32.000Z" title="发表于 2024-09-06 12:49:32">2024-09-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/b192ad14.html" title="差分隐私"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/08/21/SAWajQuYk3Fn5BO.png" onerror="this.onerror=null;this.src='/img/404me.png'" alt="差分隐私"/></a><div class="content"><a class="title" href="/posts/b192ad14.html" title="差分隐私">差分隐私</a><time datetime="2024-08-21T07:18:00.000Z" title="发表于 2024-08-21 15:18:00">2024-08-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/fc58f357.html" title="量子计算笔记"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/08/13/DGb6knUKQIv9hlB.png" onerror="this.onerror=null;this.src='/img/404me.png'" alt="量子计算笔记"/></a><div class="content"><a class="title" href="/posts/fc58f357.html" title="量子计算笔记">量子计算笔记</a><time datetime="2024-08-13T08:07:27.000Z" title="发表于 2024-08-13 16:07:27">2024-08-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2024 By love of peach</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk(Object.assign({
+      clientID: '7890254e25b60171b487',
+      clientSecret: 'dd554e9e9dab02d4c819dff0a043ea86dfb727af',
+      repo: 'blogcommentrepo',
+      owner: 'loveofpeach',
+      admin: ['loveofpeach'],
+      id: '81ab50db776809a2b8392bc2f024bc74',
+      updateCountCallback: commentCount
+    },null))
+
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Gitalk' === 'Gitalk' || !false) {
+  if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div><!-- hexo injector body_end start --><script async src="/js/ali_font.js"></script><!-- hexo injector body_end end --></body></html>
